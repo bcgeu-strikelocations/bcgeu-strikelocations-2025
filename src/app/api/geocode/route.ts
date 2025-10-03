@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { PostalCodeLocation, GeocoderResponse } from '@/types';
 
 const GEOCODER_CONFIG = {
-  authCode: process.env.GEONAMES_AUTH_CODE,
+  authCode: process.env.GEONAMES_AUTH_CODE || '',
   baseUrl: 'https://geocoder.ca/'
 };
 
