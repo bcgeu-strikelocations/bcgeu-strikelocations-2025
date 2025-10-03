@@ -1,0 +1,624 @@
+{
+  "locations": [
+    {
+      "city": "Abbotsford",
+      "address": "117-2070 Sumas Way"
+    },
+    {
+      "city": "Abbotsford",
+      "address": "40-32500 South Fraser Way"
+    },
+    {
+      "city": "Agassiz",
+      "address": "7250 Pioneer Ave"
+    },
+    {
+      "city": "Burnaby",
+      "address": "3383 Gilmore"
+    },
+    {
+      "city": "Burnaby",
+      "address": "4370 Dominion Street"
+    },
+    {
+      "city": "Burnaby",
+      "address": "4429 Kingsway #16"
+    },
+    {
+      "city": "Burnaby",
+      "address": "4455 Skyline Dr"
+    },
+    {
+      "city": "Burnaby",
+      "address": "4940 Canada Way"
+    },
+    {
+      "city": "Burnaby",
+      "address": "7509 Byrne Rd"
+    },
+    {
+      "city": "Burnaby",
+      "address": "8025 Enterprise St"
+    },
+    {
+      "city": "Burnaby",
+      "address": "Unit 103, 3433 North Rd"
+    },
+    {
+      "city": "Burnaby",
+      "address": "Unit 235 7155 Kingsway"
+    },
+    {
+      "city": "Campbell River",
+      "address": "2116 S Island Hwy"
+    },
+    {
+      "city": "Campbell River",
+      "address": "270-1400 Dogwood St"
+    },
+    {
+      "city": "Castlegar",
+      "address": "Unit G, 635 Columbia Ave"
+    },
+    {
+      "city": "Chilliwack",
+      "address": "45585 Luckakuck Way"
+    },
+    {
+      "city": "Chilliwack",
+      "address": "46040 Yale Rd"
+    },
+    {
+      "city": "Chilliwack",
+      "address": "46360 Airport Rd"
+    },
+    {
+      "city": "Comox",
+      "address": "204 Port Augusta St"
+    },
+    {
+      "city": "Coquitlam",
+      "address": "1500 Woolridge"
+    },
+    {
+      "city": "Courtenay",
+      "address": "1095 Cliffe Ave"
+    },
+    {
+      "city": "Cranbrook",
+      "address": "100 Cranbrook St N"
+    },
+    {
+      "city": "Cranbrook",
+      "address": "117 10th Ave S"
+    },
+    {
+      "city": "Cranbrook",
+      "address": "129 10th Ave S"
+    },
+    {
+      "city": "Cranbrook",
+      "address": "205 Industrial Rd G"
+    },
+    {
+      "city": "Cumberland",
+      "address": "2700 Dunsmuir Ave"
+    },
+    {
+      "city": "Dawson Creek",
+      "address": "1020 Alaska Ave"
+    },
+    {
+      "city": "Dawson Creek",
+      "address": "1201 103 Ave"
+    },
+    {
+      "city": "Delta",
+      "address": "1319 h, 56th street"
+    },
+    {
+      "city": "Delta",
+      "address": "5202 48 Ave"
+    },
+    {
+      "city": "Delta",
+      "address": "7003 72 St"
+    },
+    {
+      "city": "Delta",
+      "address": "7017 120 St"
+    },
+    {
+      "city": "Fort St. John",
+      "address": "10003 110th Ave"
+    },
+    {
+      "city": "Kamloops",
+      "address": "1801 Princeton-Kamloops Hwy"
+    },
+    {
+      "city": "Kamloops",
+      "address": "2650 West Trans-Canada Highway"
+    },
+    {
+      "city": "Kamloops",
+      "address": "441 Columbia Street"
+    },
+    {
+      "city": "Kamloops",
+      "address": "447 Columbia Street"
+    },
+    {
+      "city": "Kamloops",
+      "address": "600-1210 Summit Dr"
+    },
+    {
+      "city": "Kamloops",
+      "address": "9881 Dallas Drive"
+    },
+    {
+      "city": "Kelowna",
+      "address": "1060 Manhattan Dr"
+    },
+    {
+      "city": "Kelowna",
+      "address": "1835 Dilworth Dr"
+    },
+    {
+      "city": "Kelowna",
+      "address": "35 3155 Lakeshore Rd"
+    },
+    {
+      "city": "Kelowna",
+      "address": "478 Bernard Ave"
+    },
+    {
+      "city": "Langford",
+      "address": "600-2945 Jacklin Rd"
+    },
+    {
+      "city": "Langley",
+      "address": "26310 Fraser Hwy"
+    },
+    {
+      "city": "Langley",
+      "address": "6435, 201 St"
+    },
+    {
+      "city": "Langley",
+      "address": "8840 210 St"
+    },
+    {
+      "city": "Langley",
+      "address": "9110 Glover Rd"
+    },
+    {
+      "city": "Mission",
+      "address": "32530 Lougheed Hwy"
+    },
+    {
+      "city": "Nanaimo",
+      "address": "2080 Labieux Road"
+    },
+    {
+      "city": "Nanaimo",
+      "address": "2100 Labieux Road"
+    },
+    {
+      "city": "Nelson",
+      "address": "333 Victoria Street"
+    },
+    {
+      "city": "Nelson",
+      "address": "566 Stanley Street"
+    },
+    {
+      "city": "North Vancouver",
+      "address": "100-132 Esplanade W"
+    },
+    {
+      "city": "North Vancouver",
+      "address": "147, 1199 Lynn Valley Rd"
+    },
+    {
+      "city": "North Vancouver",
+      "address": "2601 Westview Dr"
+    },
+    {
+      "city": "North Vancouver",
+      "address": "411 Dollarton Hwy"
+    },
+    {
+      "city": "North Vancouver",
+      "address": "935 Marine Dr"
+    },
+    {
+      "city": "Pemberton",
+      "address": "7445 Frontier St"
+    },
+    {
+      "city": "Penticton",
+      "address": "102 Industrial Place"
+    },
+    {
+      "city": "Penticton",
+      "address": "405, 1301 Main St"
+    },
+    {
+      "city": "Pitt Meadows",
+      "address": "810, 19800 Lougheed Highway"
+    },
+    {
+      "city": "Port Coquitlam",
+      "address": "140, 1097 Nicola Ave"
+    },
+    {
+      "city": "Port Coquitlam",
+      "address": "2748 Lougheed Hwy"
+    },
+    {
+      "city": "Prince George",
+      "address": "1011 4th Ave"
+    },
+    {
+      "city": "Prince George",
+      "address": "1577 7th Ave"
+    },
+    {
+      "city": "Prince George",
+      "address": "3173, Massey Dr"
+    },
+    {
+      "city": "Prince Rupert",
+      "address": "100 2nd Ave W"
+    },
+    {
+      "city": "Province-wide",
+      "address": "CVSE Inspection Stations"
+    },
+    {
+      "city": "Richmond",
+      "address": "10, 8671 No 1 Rd"
+    },
+    {
+      "city": "Richmond",
+      "address": "3170, 11666 Steveston Hwy"
+    },
+    {
+      "city": "Richmond",
+      "address": "3389 No 6 Rd"
+    },
+    {
+      "city": "Richmond",
+      "address": "8100 Ackroyd Rd"
+    },
+    {
+      "city": "Smithers",
+      "address": "3726 Alfred Ave"
+    },
+    {
+      "city": "Sooke",
+      "address": "9050 6660 Sooke Rd"
+    },
+    {
+      "city": "Summerland",
+      "address": "13604 Victoria Rd"
+    },
+    {
+      "city": "Surrey",
+      "address": "101-17780 56 ave"
+    },
+    {
+      "city": "Surrey",
+      "address": "10470 152 St"
+    },
+    {
+      "city": "Surrey",
+      "address": "10475 138 Street"
+    },
+    {
+      "city": "Surrey",
+      "address": "116-12080 Nordel Way"
+    },
+    {
+      "city": "Surrey",
+      "address": "12881 16th Ave"
+    },
+    {
+      "city": "Surrey",
+      "address": "14323 57 Ave"
+    },
+    {
+      "city": "Surrey",
+      "address": "1711 152 St"
+    },
+    {
+      "city": "Surrey",
+      "address": "280-15355 24th Ave"
+    },
+    {
+      "city": "Surrey",
+      "address": "7488 King George Blvd"
+    },
+    {
+      "city": "Terrace",
+      "address": "Highway 15 at K'San Ave"
+    },
+    {
+      "city": "Vancouver",
+      "address": "1050 Pender St W"
+    },
+    {
+      "city": "Vancouver",
+      "address": "1085 Cambie St"
+    },
+    {
+      "city": "Vancouver",
+      "address": "1108 Pacific Blvd"
+    },
+    {
+      "city": "Vancouver",
+      "address": "1155 Bute St"
+    },
+    {
+      "city": "Vancouver",
+      "address": "1655 Davie St"
+    },
+    {
+      "city": "Vancouver",
+      "address": "1716 Robson St"
+    },
+    {
+      "city": "Vancouver",
+      "address": "1725 Robson St"
+    },
+    {
+      "city": "Vancouver",
+      "address": "2058 41st Ave W"
+    },
+    {
+      "city": "Vancouver",
+      "address": "2120 Lahb Ave"
+    },
+    {
+      "city": "Vancouver",
+      "address": "2395 Cambie St"
+    },
+    {
+      "city": "Vancouver",
+      "address": "3150 E 54th Ave"
+    },
+    {
+      "city": "Vancouver",
+      "address": "3313 Shrum Lane"
+    },
+    {
+      "city": "Vancouver",
+      "address": "3453 Dunbar"
+    },
+    {
+      "city": "Vancouver",
+      "address": "370 E Broadway"
+    },
+    {
+      "city": "Vancouver",
+      "address": "401 Georgia St W"
+    },
+    {
+      "city": "Vancouver",
+      "address": "4423 Main St"
+    },
+    {
+      "city": "Vancouver",
+      "address": "510 Burrard St"
+    },
+    {
+      "city": "Vancouver",
+      "address": "550 Cambie St"
+    },
+    {
+      "city": "Vancouver",
+      "address": "555 Hastings St W"
+    },
+    {
+      "city": "Vancouver",
+      "address": "555 Hastings St W"
+    },
+    {
+      "city": "Vancouver",
+      "address": "5555 Cambie"
+    },
+    {
+      "city": "Vancouver",
+      "address": "601 Cordova St W"
+    },
+    {
+      "city": "Vancouver",
+      "address": "605 Robson"
+    },
+    {
+      "city": "Vancouver",
+      "address": "700 Georgia St W"
+    },
+    {
+      "city": "Vancouver",
+      "address": "750 Pender St"
+    },
+    {
+      "city": "Vancouver",
+      "address": "768 Bute Street"
+    },
+    {
+      "city": "Vancouver",
+      "address": "815 Hornby"
+    },
+    {
+      "city": "Vancouver",
+      "address": "865 Hornby Street"
+    },
+    {
+      "city": "Vancouver",
+      "address": "900 Howe Street"
+    },
+    {
+      "city": "Vancouver",
+      "address": "999 Canada Pl"
+    },
+    {
+      "city": "Vernon",
+      "address": "245a 4900 27th st"
+    },
+    {
+      "city": "Victoria",
+      "address": "1087 McKenzie Ave"
+    },
+    {
+      "city": "Victoria",
+      "address": "1150 McKenzie Ave"
+    },
+    {
+      "city": "Victoria",
+      "address": "1175 Douglas St"
+    },
+    {
+      "city": "Victoria",
+      "address": "1515 Blanshard"
+    },
+    {
+      "city": "Victoria",
+      "address": "1802 Douglas"
+    },
+    {
+      "city": "Victoria",
+      "address": "1810 Blanshard"
+    },
+    {
+      "city": "Victoria",
+      "address": "1960 Foul Bay Rd"
+    },
+    {
+      "city": "Victoria",
+      "address": "2219 Government"
+    },
+    {
+      "city": "Victoria",
+      "address": "2955 Tillicum Rd"
+    },
+    {
+      "city": "Victoria",
+      "address": "2975 Jutland"
+    },
+    {
+      "city": "Victoria",
+      "address": "3350 Douglas"
+    },
+    {
+      "city": "Victoria",
+      "address": "3400 Davidson Ave"
+    },
+    {
+      "city": "Victoria",
+      "address": "3611 Shelbourne St"
+    },
+    {
+      "city": "Victoria",
+      "address": "370-777 Royal Oak Dr"
+    },
+    {
+      "city": "Victoria",
+      "address": "4000 Seymour"
+    },
+    {
+      "city": "Victoria",
+      "address": "4464 Markham Street"
+    },
+    {
+      "city": "Victoria",
+      "address": "545 Superior St"
+    },
+    {
+      "city": "Victoria",
+      "address": "617 Government"
+    },
+    {
+      "city": "Victoria",
+      "address": "675 Belleville (Royal BC Museum)"
+    },
+    {
+      "city": "Victoria",
+      "address": "716 Courtney"
+    },
+    {
+      "city": "Victoria",
+      "address": "727 Fisgard"
+    },
+    {
+      "city": "Victoria",
+      "address": "800 Johnson"
+    },
+    {
+      "city": "Victoria",
+      "address": "818 Fort St"
+    },
+    {
+      "city": "Victoria",
+      "address": "835 Humbolt"
+    },
+    {
+      "city": "Victoria",
+      "address": "836 Yates"
+    },
+    {
+      "city": "Victoria",
+      "address": "87-1644 Hillside Ave"
+    },
+    {
+      "city": "Victoria",
+      "address": "940 Blanshard"
+    },
+    {
+      "city": "Victoria",
+      "address": "976 Meares"
+    },
+    {
+      "city": "West Vancouver",
+      "address": "1434 Marine Dr"
+    },
+    {
+      "city": "West Vancouver",
+      "address": "195-5335 Headland Dr"
+    },
+    {
+      "city": "West Vancouver",
+      "address": "785 Park Royal N"
+    },
+    {
+      "city": "New Westminster",
+      "address": "1075 Columbia Street"
+    },
+    {
+      "city": "Westminster",
+      "address": "800 McBride Blvd"
+    },
+    {
+      "city": "Whistler",
+      "address": "101-4360 Lorimer Rd"
+    },
+    {
+      "city": "Whistler",
+      "address": "2071 Lake Placid Rd"
+    },
+    {
+      "city": "Whistler",
+      "address": "4211 Village Square"
+    },
+    {
+      "city": "Williams Lake",
+      "address": "280 3 Ave N"
+    },
+    {
+      "city": "Williams Lake",
+      "address": "640 Borland Street"
+    }
+  ]
+}
