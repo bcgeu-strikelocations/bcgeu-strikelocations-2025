@@ -4,12 +4,12 @@ import { UserLocation, PostalCodeLocation } from '@/types';
 
 interface MapZoomHandlerProps {
   userLocation?: UserLocation;
-  postalLocations: PostalCodeLocation[];
+  postalLocation?: PostalCodeLocation;
 }
 
 export default function MapZoomHandler({ 
   userLocation, 
-  postalLocations 
+  postalLocation 
 }: MapZoomHandlerProps) {
   const map = useMap();
 
@@ -23,14 +23,13 @@ export default function MapZoomHandler({
   }, [userLocation, map]);
 
   useEffect(() => {
-    if (postalLocations.length > 0) {
-      const latestPostalLocation = postalLocations[postalLocations.length - 1];
-      map.flyTo([latestPostalLocation.lat, latestPostalLocation.lng], 15, {
+    if (postalLocation) {
+      map.flyTo([postalLocation.lat, postalLocation.lng], 15, {
         animate: false,
         duration: 1.5
       });
     }
-  }, [postalLocations, map]);
+  }, [postalLocation, map]);
 
   return null;
 }

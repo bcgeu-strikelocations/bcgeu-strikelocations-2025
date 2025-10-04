@@ -59,7 +59,7 @@ export interface MapState {
 export interface MapProps {
   locationsGeoJSON: GeoJSON.FeatureCollection | null;
   userLocation?: UserLocation;
-  postalLocations: PostalCodeLocation[];
+  postalLocation?: PostalCodeLocation;
   onLocationClick?: (location: StrikeLocation) => void;
   onNearestStrikeFound?: (nearestStrike: { distance: number; location: StrikeLocation } | undefined) => void;
 }
@@ -72,5 +72,5 @@ export interface InfoPanelProps {
     location: StrikeLocation;
   };
   onUserLocationChange?: (userLocation: UserLocation | undefined) => void;
-  onPostalLocationsChange?: (postalLocations: PostalCodeLocation[]) => void;
+  onPostalLocationChange?: (postalLocation: PostalCodeLocation | undefined) => void;
 }

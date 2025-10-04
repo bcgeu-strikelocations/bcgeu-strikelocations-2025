@@ -10,7 +10,7 @@ const Map = dynamic(() => import('@/components/map').then(mod => ({ default: mod
 
 export default function HomePage() {
   const [locationsGeoJSON, setLocationsGeoJSON] = useState<GeoJSON.FeatureCollection | null>(null);
-  const [postalLocations, setPostalLocations] = useState<PostalCodeLocation[]>([]);
+  const [postalLocation, setPostalLocation] = useState<PostalCodeLocation | undefined>();
   const [userLocation, setUserLocation] = useState<UserLocation | undefined>();
   const [nearestStrike, setNearestStrike] = useState<{
     distance: number;
@@ -35,8 +35,8 @@ export default function HomePage() {
     setUserLocation(newUserLocation);
   }, []);
 
-  const handlePostalLocationsChange = useCallback((newPostalLocations: PostalCodeLocation[]) => {
-    setPostalLocations(newPostalLocations);
+  const handlePostalLocationChange = useCallback((newPostalLocation: PostalCodeLocation | undefined) => {
+    setPostalLocation(newPostalLocation);
   }, []);
 
   const handleNearestStrikeFound = useCallback((nearestStrike: { distance: number; location: StrikeLocation } | undefined) => {
@@ -49,7 +49,7 @@ export default function HomePage() {
       <Map
         locationsGeoJSON={locationsGeoJSON}
         userLocation={userLocation}
-        postalLocations={postalLocations}
+        postalLocation={postalLocation}
         onNearestStrikeFound={handleNearestStrikeFound}
       />
       
@@ -57,7 +57,7 @@ export default function HomePage() {
         locationsCount={locationsGeoJSON?.features.length || 0}
         nearestStrike={nearestStrike}
         onUserLocationChange={handleUserLocationChange}
-        onPostalLocationsChange={handlePostalLocationsChange}
+        onPostalLocationChange={handlePostalLocationChange}
       />
     </div>
   );

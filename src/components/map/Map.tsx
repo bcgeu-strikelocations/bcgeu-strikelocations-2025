@@ -13,7 +13,7 @@ import { PopupContent, UserPopup, PostalPopup, MapZoomHandler } from ".";
 export default function Map({
   locationsGeoJSON,
   userLocation,
-  postalLocations,
+  postalLocation,
   onLocationClick,
   onNearestStrikeFound,
 }: MapProps) {
@@ -92,7 +92,7 @@ export default function Map({
         {/* Map zoom handler */}
         <MapZoomHandler
           userLocation={userLocation}
-          postalLocations={postalLocations}
+          postalLocation={postalLocation}
         />
 
         {/* Buffer layer */}
@@ -163,18 +163,18 @@ export default function Map({
           </Marker>
         )}
 
-        {/* Postal code locations */}
-        {postalLocations.map((location, index) => (
+        {/* Postal code location */}
+        {postalLocation && (
           <Marker
-            key={`postal-${index}`}
-            position={[location.lat, location.lng]}
+            key="postal"
+            position={[postalLocation.lat, postalLocation.lng]}
             icon={createIcon("postal")}
           >
             <Popup>
-              <PostalPopup location={location} />
+              <PostalPopup location={postalLocation} />
             </Popup>
           </Marker>
-        ))}
+        )}
       </MapContainer>
     </div>
   );

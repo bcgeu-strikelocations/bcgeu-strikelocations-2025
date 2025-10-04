@@ -13,13 +13,10 @@ export default function InfoPanel({
   locationsCount,
   nearestStrike,
   onUserLocationChange,
-  onPostalLocationsChange,
+  onPostalLocationChange,
 }: InfoPanelProps) {
   const [isExpanded, setIsExpanded] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  const [postalLocations, setPostalLocations] = useState<PostalCodeLocation[]>(
-    []
-  );
 
   useEffect(() => {
     const checkIsMobile = () => {
@@ -44,11 +41,9 @@ export default function InfoPanel({
 
   const handlePostalCodeFound = useCallback(
     (location: PostalCodeLocation) => {
-      const newPostalLocations = [...postalLocations, location];
-      setPostalLocations(newPostalLocations);
-      onPostalLocationsChange?.(newPostalLocations);
+      onPostalLocationChange?.(location);
     },
-    [postalLocations, onPostalLocationsChange]
+    [onPostalLocationChange]
   );
 
 
