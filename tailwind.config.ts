@@ -9,56 +9,29 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // BCGEU Brand Colors
         bcgeu: {
           blue: {
-            50: '#f0f7ff',
-            100: '#e0efff',
-            200: '#b9ddff',
-            300: '#7cc2ff',
-            400: '#36a3ff',
-            500: '#0a87ff',
-            600: '#0065a4', // Primary blue
-            700: '#005085',
-            800: '#004066',
-            900: '#00354d',
+            50: '#f0f7ff',   // Used for backgrounds
+            100: '#e0efff',  // Used for separators
+            200: '#b9ddff',  // Used for borders
+            600: '#0065a4',  // Primary blue
+            700: '#005085',  // Used for text
+            800: '#004066',  // Used for borders
           },
           gold: {
-            50: '#fdfcf7',
-            100: '#faf8ed',
-            200: '#f5f0d6',
-            300: '#ede4b8',
-            400: '#e2d494',
-            500: '#d4c26a',
-            600: '#b8a967', // Primary gold
-            700: '#9a8f4f',
-            800: '#7d7440',
-            900: '#665e35',
+            600: '#ffd700',  // Gold - used for flags and postal search
           },
           red: {
-            50: '#fef2f2',
-            100: '#fee2e2',
-            200: '#fecaca',
-            300: '#fca5a5',
-            400: '#f87171',
-            500: '#ef4444',
-            600: '#db1e2a', // Strike red
-            700: '#b91c1c',
-            800: '#991b1b',
-            900: '#7f1d1d',
+            600: '#db1e2a',  // Strike red - used in button variants
           },
-          orange: {
-            50: '#fff7ed',
-            100: '#ffedd5',
-            200: '#fed7aa',
-            300: '#fdba74',
-            400: '#fb923c',
-            500: '#f97316',
-            600: '#ff7800', // No picket orange
-            700: '#ea580c',
-            800: '#c2410c',
-            900: '#9a3412',
-          },
+        },
+        // Location type colors
+        location: {
+          cannabis: '#059669',  // emerald-600 - cannabis stores
+          office: '#374151',    // gray-700 - offices  
+          warehouse: '#92400e', // amber-800 - warehouses
+          cvse: '#ea580c',      // orange-600 - CVSE
+          liquor: '#dc2626',    // red-600 - liquor stores
         },
       },
       fontFamily: {

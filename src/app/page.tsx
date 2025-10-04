@@ -1,4 +1,4 @@
-import { fetchLocations, fetchBufferData } from '@/lib/data';
+import { fetchLocations, fetchBufferData } from '@/lib/server-data';
 import MapClient from '@/components/MapClient';
 
 export default async function HomePage() {

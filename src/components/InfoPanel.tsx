@@ -6,7 +6,7 @@ import { InfoPanelProps } from "@/types";
 import { useState, useEffect, useCallback } from "react";
 import UserLocationButton from "./UserLocationButton";
 import PostalCodeSearch from "./PostalCodeSearch";
-import { Info, X } from "lucide-react";
+import { Info, X, Flag, User, Search, Circle } from "lucide-react";
 import { PostalCodeLocation } from "@/types";
 
 export default function InfoPanel({
@@ -66,30 +66,40 @@ export default function InfoPanel({
 
       {/* Legend */}
       <div className="space-y-2">
-        <div className="grid grid-cols-1 gap-1.5">
-          <div className="flex items-center space-x-2">
-            <div className="w-4 h-4 rounded-full bg-bcgeu-red-600 border border-white shadow-sm flex-shrink-0"></div>
-            <span className="text-xs text-gray-700">
+        <div className="grid grid-cols-1 gap-2">
+          <div className="flex items-center space-x-3">
+            <div className="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 bg-bcgeu-blue-600 border-2 border-bcgeu-blue-800">
+              <Flag className="w-3 h-3 fill-current text-bcgeu-gold-600" />
+            </div>
+            <span className="text-xs text-gray-700 font-medium">
               Strike Locations: Picketed
             </span>
           </div>
-          <div className="flex items-center space-x-2">
-            <div className="w-4 h-4 rounded-full bg-bcgeu-orange-600 border border-white shadow-sm flex-shrink-0"></div>
-            <span className="text-xs text-gray-700">
+          <div className="flex items-center space-x-3">
+            <div className="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 bg-bcgeu-blue-600 border-2 border-bcgeu-blue-800">
+              <Flag className="w-3 h-3 fill-current text-orange-600" />
+            </div>
+            <span className="text-xs text-gray-700 font-medium">
               Strike Locations: Not Picketed
             </span>
           </div>
-          <div className="flex items-center space-x-2">
-            <div className="w-4 h-4 rounded-full bg-red-200 border border-red-400 shadow-sm flex-shrink-0"></div>
-            <span className="text-xs text-gray-700">30km Radius</span>
+          <div className="flex items-center space-x-3">
+            <div className="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 bg-red-50 border-2 border-red-200">
+              <Circle className="w-3 h-3 text-bcgeu-red-600" />
+            </div>
+            <span className="text-xs text-gray-700 font-medium">30km Radius</span>
           </div>
-          <div className="flex items-center space-x-2">
-            <div className="w-4 h-4 rounded-full bg-bcgeu-blue-600 border border-white shadow-sm flex-shrink-0"></div>
-            <span className="text-xs text-gray-700">Your Location</span>
+          <div className="flex items-center space-x-3">
+            <div className="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 bg-bcgeu-blue-50 border-2 border-blue-200">
+              <User className="w-3 h-3 fill-current text-bcgeu-blue-600" />
+            </div>
+            <span className="text-xs text-gray-700 font-medium">Your Location</span>
           </div>
-          <div className="flex items-center space-x-2">
-            <div className="w-4 h-4 rounded-full bg-bcgeu-gold-600 border border-white shadow-sm flex-shrink-0"></div>
-            <span className="text-xs text-gray-700">Postal Search</span>
+          <div className="flex items-center space-x-3">
+            <div className="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 bg-yellow-50 border-2 border-yellow-200">
+              <Search className="w-3 h-3 fill-current text-bcgeu-gold-600" />
+            </div>
+            <span className="text-xs text-gray-700 font-medium">Postal Search</span>
           </div>
         </div>
       </div>
