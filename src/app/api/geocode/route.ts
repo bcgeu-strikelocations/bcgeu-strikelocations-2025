@@ -18,7 +18,12 @@ export async function POST(request: NextRequest) {
     }
 
     const location = await geocodePostalCode(postalCode);
-    return NextResponse.json(location);
+    return NextResponse.json(location, {
+      headers: {
+        'Cache-Control': 'public, max-age=86400, s-maxage=604800', // 24 hours client, 7 days CDN
+        'Content-Type': 'application/json',
+      },
+    });
   } catch (error) {
     console.error('Geocoding error:', error);
     return NextResponse.json(

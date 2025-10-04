@@ -58,6 +58,7 @@ export interface MapState {
 
 export interface MapProps {
   locationsGeoJSON: GeoJSON.FeatureCollection | null;
+  bufferData?: GeoJSON.FeatureCollection | null;
   userLocation?: UserLocation;
   postalLocation?: PostalCodeLocation;
   onLocationClick?: (location: StrikeLocation) => void;

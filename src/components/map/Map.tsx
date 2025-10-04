@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup, GeoJSON } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
@@ -12,27 +12,12 @@ import { PopupContent, UserPopup, PostalPopup, MapZoomHandler } from ".";
 
 export default function Map({
   locationsGeoJSON,
+  bufferData,
   userLocation,
   postalLocation,
   onLocationClick,
   onNearestStrikeFound,
 }: MapProps) {
-  const [bufferData, setBufferData] =
-    useState<GeoJSON.FeatureCollection | null>(null);
-
-  // Load buffer data on mount
-  useEffect(() => {
-    const loadBufferData = async () => {
-      try {
-        const response = await fetch("/api/geojson?type=buffer");
-        const data = await response.json();
-        setBufferData(data);
-      } catch (error) {
-        console.error("Failed to load buffer data:", error);
-      }
-    };
-    loadBufferData();
-  }, []);
 
   // Handle user location changes and find nearest strike
   useEffect(() => {
