@@ -36,8 +36,28 @@ export const getLocationIconName = (locationType: string): string => {
       return 'Building';
     case 'CVSE':
       return 'Truck';
+    case 'Warehouse':
+      return 'Warehouse';
     default:
       return 'MapPin';
+  }
+};
+
+// Get hex color value for location type icons (for popup display)
+export const getLocationIconColor = (locationType: string): string => {
+  switch (locationType) {
+    case 'BC Cannabis Store':
+      return '#16a34a'; // green-600
+    case 'BC Liquor Store':
+      return '#dc2626'; // red-600
+    case 'Office':
+      return '#2563eb'; // blue-600
+    case 'CVSE':
+      return '#000000'; // black
+    case 'Warehouse':
+      return '#d97706'; // amber-600
+    default:
+      return '#6b7280'; // gray-600
   }
 };
 

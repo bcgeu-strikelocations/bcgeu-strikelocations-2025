@@ -1,6 +1,6 @@
 import { StrikeLocation } from '@/types';
-import { getLocationIconName } from '@/lib/icons';
-import { Cannabis, Wine, Building, Truck, MapPin } from 'lucide-react';
+import { getLocationIconName, getLocationIconColor } from '@/lib/icons';
+import { Cannabis, Wine, Building, Truck, Warehouse, MapPin } from 'lucide-react';
 
 // Icon mapping for Lucide React components
 const iconComponents = {
@@ -8,6 +8,7 @@ const iconComponents = {
   Wine,
   Building,
   Truck,
+  Warehouse,
   MapPin
 };
 
@@ -22,7 +23,7 @@ export default function PopupContent({ location }: PopupContentProps) {
   return (
     <div className="max-w-[250px]">
       <div className="font-bold text-bcgeu-blue-600 mb-1 flex items-center gap-2">
-        <IconComponent size={16} className="text-gray-600" />
+        <IconComponent size={16} color={getLocationIconColor(location.location_type)} />
         {location.address}
       </div>
       <div><strong>Type:</strong> {location.location_type}</div>
