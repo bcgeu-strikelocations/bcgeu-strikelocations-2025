@@ -54,6 +54,10 @@ export const getLocationIconName = (locationType: string): string => {
       return 'Truck';
     case 'Warehouse':
       return 'Package';
+    case 'Service BC':
+      return 'Users';
+    case 'Front Desk BC':
+      return 'Monitor';
     default:
       return 'MapPin';
   }
@@ -72,6 +76,10 @@ export const getLocationIconColor = (locationType: string): string => {
       return '#ea580c'; // location-cvse
     case 'Warehouse':
       return '#92400e'; // location-warehouse
+    case 'Service BC':
+      return '#7c3aed'; // purple-600
+    case 'Front Desk BC':
+      return '#0891b2'; // cyan-600
     default:
       return '#6b7280'; // gray-600
   }

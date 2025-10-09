@@ -1,6 +1,6 @@
 import { StrikeLocation } from '@/types';
 import { getLocationIconName, getLocationIconColor } from '@/lib/icon-config';
-import { Cannabis, Wine, Building2, Truck, Package, MapPin, Info, MapPin as LocationIcon, Flag } from 'lucide-react';
+import { Cannabis, Wine, Building2, Truck, Package, MapPin, Info, MapPin as LocationIcon, Flag, Users, Monitor } from 'lucide-react';
 
 // Icon mapping for Lucide React components
 const iconComponents = {
@@ -9,7 +9,9 @@ const iconComponents = {
   Building2,
   Truck,
   Package,
-  MapPin
+  MapPin,
+  Users,
+  Monitor
 };
 
 interface PopupContentProps {
