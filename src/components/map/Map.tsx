@@ -4,11 +4,13 @@ import { useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup, GeoJSON } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import "leaflet.markercluster/dist/MarkerCluster.css";
+import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import { StrikeLocation, MapProps } from "@/types";
 import { calculateDistance } from "@/lib/utils";
-import { createIcon, getLocationIconType } from "@/lib/icons";
-import ReactDOMServer from "react-dom/server";
-import { PopupContent, UserPopup, PostalPopup, MapZoomHandler } from ".";
+import { createIcon } from "@/lib/icons";
+import { UserPopup, PostalPopup, MapZoomHandler } from ".";
+import MarkerClusterGroup from "./MarkerClusterGroup";
 
 export default function Map({
   locationsGeoJSON,
@@ -94,21 +96,10 @@ export default function Map({
           />
         )}
 
-        {/* Strike locations as GeoJSON */}
+        {/* Strike locations with clustering */}
         {locationsGeoJSON && (
-          <GeoJSON
-            data={locationsGeoJSON}
-            pointToLayer={(feature, latlng) => {
-              const props = feature.properties;
-              if (props) {
-                const iconType = getLocationIconType(props.is_picket_line);
-                return L.marker(latlng, {
-                  icon: createIcon(iconType),
-                });
-              }
-              return L.marker(latlng);
-            }}
-            onEachFeature={(feature, layer) => {
+          <MarkerClusterGroup
+            markers={locationsGeoJSON.features.map((feature) => {
               const props = feature.properties;
               if (props) {
                 const location: StrikeLocation = {
@@ -119,17 +110,42 @@ export default function Map({
                   is_picket_line: props.is_picket_line,
                   location_type: props.location_type,
                 };
-
-                // Create popup with React component
-                const popup = L.popup().setContent(
-                  ReactDOMServer.renderToString(
-                    <PopupContent location={location} />
-                  )
-                );
-                layer.bindPopup(popup);
-
-                layer.on("click", () => {
-                  onLocationClick?.(location);
+                return {
+                  position: props.coordinates,
+                  location,
+                };
+              }
+              return null;
+            }).filter(Boolean) as Array<{
+              position: [number, number];
+              location: StrikeLocation;
+            }>}
+            onLocationClick={onLocationClick}
+            options={{
+              maxClusterRadius: 50,
+              spiderfyOnMaxZoom: true,
+              showCoverageOnHover: false,
+              zoomToBoundsOnClick: true,
+              iconCreateFunction: (cluster) => {
+                const childCount = cluster.getChildCount();
+                return L.divIcon({
+                  html: `<div style="
+                    background-color: rgba(144, 238, 144, 0.7);
+                    color: #2d5a2d;
+                    border-radius: 50%;
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: bold;
+                    font-size: 14px;
+                    border: 2px solid rgba(255, 255, 255, 0.8);
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+                  ">${childCount}</div>`,
+                  className: 'custom-cluster-icon',
+                  iconSize: [40, 40],
+                  iconAnchor: [20, 20]
                 });
               }
             }}
