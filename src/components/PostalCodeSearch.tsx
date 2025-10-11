@@ -5,12 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Search, X } from "lucide-react";
 import { formatPostalCode, validatePostalCode } from "@/lib/utils";
-import { PostalCodeLocation } from "@/types";
-
-interface PostalCodeSearchProps {
-  onPostalCodeFound: (location: PostalCodeLocation) => void;
-  onError?: (error: string) => void;
-}
+import { PostalCodeLocation, PostalCodeSearchProps } from "@/types";
 
 export default function PostalCodeSearch({
   onPostalCodeFound,

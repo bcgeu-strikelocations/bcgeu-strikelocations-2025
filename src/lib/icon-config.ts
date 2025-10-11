@@ -85,4 +85,3 @@ export const getLocationIconColor = (locationType: string): string => {
   }
 };
 
-export type IconType = keyof typeof ICON_CONFIG;

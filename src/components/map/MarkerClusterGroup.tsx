@@ -4,19 +4,10 @@ import { useEffect, useRef } from "react";
 import { useMap } from "react-leaflet";
 import L from "leaflet";
 import "leaflet.markercluster";
-import { StrikeLocation } from "@/types";
+import { MarkerClusterGroupProps } from "@/types";
 import { createIcon, getLocationIconType } from "@/lib/icons";
 import ReactDOMServer from "react-dom/server";
 import { PopupContent } from ".";
-
-interface MarkerClusterGroupProps {
-  markers: Array<{
-    position: [number, number];
-    location: StrikeLocation;
-  }>;
-  onLocationClick?: (location: StrikeLocation) => void;
-  options?: L.MarkerClusterGroupOptions;
-}
 
 export default function MarkerClusterGroup({ markers, onLocationClick, options }: MarkerClusterGroupProps) {
   const map = useMap();

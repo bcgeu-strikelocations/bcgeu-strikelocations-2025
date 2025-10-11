@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { MapContainer, TileLayer, Marker, Popup, GeoJSON } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup, GeoJSON, useMapEvents } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import "leaflet.markercluster/dist/MarkerCluster.css";
@@ -12,6 +12,16 @@ import { createIcon } from "@/lib/icons";
 import { UserPopup, PostalPopup, MapZoomHandler } from ".";
 import MarkerClusterGroup from "./MarkerClusterGroup";
 
+// Component to handle map click events
+function MapClickHandler({ onMapClick }: { onMapClick?: () => void }) {
+  useMapEvents({
+    click: () => {
+      onMapClick?.();
+    },
+  });
+  return null;
+}
+
 export default function Map({
   locationsGeoJSON,
   bufferData,
@@ -19,6 +29,7 @@ export default function Map({
   postalLocation,
   onLocationClick,
   onNearestStrikeFound,
+  onMapClick,
 }: MapProps) {
 
   // Handle user location changes and find nearest strike
@@ -71,6 +82,8 @@ export default function Map({
         style={{ height: "100%", width: "100%" }}
         zoomControl={true}
       >
+        <MapClickHandler onMapClick={onMapClick} />
+        
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -126,7 +139,7 @@ export default function Map({
               spiderfyOnMaxZoom: true,
               showCoverageOnHover: false,
               zoomToBoundsOnClick: true,
-              iconCreateFunction: (cluster) => {
+              iconCreateFunction: (cluster: L.MarkerCluster) => {
                 const childCount = cluster.getChildCount();
                 return L.divIcon({
                   html: `<div style="

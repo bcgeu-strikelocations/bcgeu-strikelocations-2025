@@ -14,15 +14,16 @@ export default function InfoPanel({
   nearestStrike,
   onUserLocationChange,
   onPostalLocationChange,
+  filterPanel,
+  isInfoPanelExpanded = true,
+  onInfoPanelToggle,
 }: InfoPanelProps) {
-  const [isExpanded, setIsExpanded] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const checkIsMobile = () => {
       const mobile = window.innerWidth < 640; // Tailwind's 'sm' breakpoint
       setIsMobile(mobile);
-      setIsExpanded(!mobile); // Desktop: expanded, Mobile: collapsed
     };
 
     // Initial check
@@ -36,7 +37,7 @@ export default function InfoPanel({
   }, []);
 
   const toggleExpanded = () => {
-    setIsExpanded(!isExpanded);
+    onInfoPanelToggle?.(!isInfoPanelExpanded);
   };
 
   const handlePostalCodeFound = useCallback(
@@ -106,6 +107,14 @@ export default function InfoPanel({
 
       <Separator className="my-2 sm:my-3" />
 
+      {/* Filter Panel */}
+      {filterPanel && (
+        <>
+          {filterPanel}
+          <Separator className="my-2 sm:my-3" />
+        </>
+      )}
+
       <div className="space-y-2 sm:space-y-3">
         <UserLocationButton onUserLocationChange={onUserLocationChange} />
         <PostalCodeSearch onPostalCodeFound={handlePostalCodeFound} />
@@ -142,7 +151,7 @@ export default function InfoPanel({
   return (
     <>
       {/* Toggle Button - Only visible when panel is closed */}
-      {!isExpanded && (
+      {!isInfoPanelExpanded && (
         <Button
           onClick={toggleExpanded}
           className={`absolute top-1 sm:top-4 right-1 sm:right-2 bg-bcgeu-blue-600 hover:bg-bcgeu-blue-700 text-white rounded-full shadow-lg z-[1000] transition-all duration-200 hover:scale-105 ${
@@ -156,11 +165,11 @@ export default function InfoPanel({
 
       {/* Info Panel with responsive positioning */}
       <div
-        className={`absolute top-2 sm:top-4 right-1 sm:right-2 bg-white rounded-lg shadow-lg w-full mx-1 sm:mx-2 border border-bcgeu-blue-200 z-[1000] transition-all duration-300 ease-out transform ${
-          isExpanded
+        className={`absolute top-2 sm:top-4 right-1 sm:right-2 bg-white rounded-lg shadow-lg border border-bcgeu-blue-200 z-[1000] transition-all duration-300 ease-out transform ${
+          isInfoPanelExpanded
             ? "opacity-100 translate-x-0 scale-100"
             : "opacity-0 translate-x-full scale-95 pointer-events-none"
-        } ${isMobile ? "max-w-72" : "max-w-80"}`}
+        } ${isMobile ? "w-80 max-h-[80vh] overflow-y-auto" : "w-80"}`}
       >
         <div className={`${isMobile ? "p-3" : "p-4"}`}>
           <PanelContent />

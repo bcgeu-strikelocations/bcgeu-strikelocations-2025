@@ -3,11 +3,7 @@
 import { useState, useCallback } from "react";
 import { Button } from "@/components/ui/button";
 import { MapPin } from "lucide-react";
-import { UserLocation } from "@/types";
-
-interface UserLocationButtonProps {
-  onUserLocationChange?: (userLocation: UserLocation | undefined) => void;
-}
+import { UserLocation, UserLocationButtonProps } from "@/types";
 
 export default function UserLocationButton({
   onUserLocationChange,

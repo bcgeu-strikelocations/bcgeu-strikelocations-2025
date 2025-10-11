@@ -135,7 +135,6 @@ export const getLocationIconColor = (locationType: string): string => {
   }
 };
 
-export type IconType = keyof typeof ICON_CONFIG;
 
 // Helper functions for consistent icon usage across components
 export const getUserLocationIcon = () => ICON_CONFIG.user;

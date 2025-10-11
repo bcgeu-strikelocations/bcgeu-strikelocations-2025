@@ -8,32 +8,45 @@ An interactive map application showing BCGEU strike locations across British Col
 - 📍 **User Location**: GPS-based location detection with accuracy circle
 - 🔍 **Postal Code Search**: Canadian postal code search to find locations near any address
 - 📊 **30km Radius Visualization**: Shows coverage areas around picketed locations
-- 📱 **Mobile Friendly**: Works seamlessly on desktop and mobile devices
+- 📱 **Mobile Friendly**: Works seamlessly on desktop and mobile devices with responsive design
 - 🎨 **BCGEU Branding**: Official BCGEU colors and styling
 - 🎯 **Nearest Strike Detection**: Automatically finds and shows the closest strike location
 - 📋 **Location Details**: View hours, addresses, and picket line status for each location
+- 🔧 **Advanced Filtering**: Comprehensive filtering system with multiple options
+  - **Location Type Filter**: Filter by BC Liquor Store, BC Cannabis Store, Office, Warehouse, CVSE, Service BC, etc.
+  - **City Filter**: Searchable dropdown to filter by specific cities
+  - **Picket Status Filter**: Toggle between all locations, picketed only, or not picketed
+  - **Address Search**: Search by specific addresses with dropdown suggestions
+- 🎛️ **Interactive Controls**:
+  - Real-time filter updates as you make selections
+  - Combined filtering logic - multiple filters work together
+  - Filter state persistence across map interactions
+  - Mobile-optimized interface for better usability
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
 
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone <repository-url>
 cd bcgeu-strikelocations-2025
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Run the development server:
+
 ```bash
 npm run dev
 ```
@@ -67,6 +80,13 @@ The development server automatically generates GeoJSON data files on startup.
 │   │   │   ├── MarkerClusterGroup.tsx
 │   │   │   ├── PopupContent.tsx
 │   │   │   └── MapZoomHandler.tsx
+│   │   ├── filter/           # Advanced filtering components
+│   │   │   ├── FilterPanel.tsx        # Main filter container
+│   │   │   ├── LocationTypeFilter.tsx # Location type checkboxes
+│   │   │   ├── CityFilter.tsx         # City selection dropdown
+│   │   │   ├── PicketStatusFilter.tsx # Picket status radio buttons
+│   │   │   ├── SearchFilter.tsx       # Address search dropdown
+│   │   │   └── index.ts               # Barrel exports
 │   │   ├── InfoPanel.tsx     # Collapsible info panel with legend
 │   │   ├── MapClient.tsx     # Client-side map wrapper
 │   │   ├── UserLocationButton.tsx
@@ -76,7 +96,8 @@ The development server automatically generates GeoJSON data files on startup.
 │   ├── lib/                  # Utility functions
 │   │   ├── server-data.ts    # Server-side data fetching
 │   │   ├── utils.ts          # General utilities
-│   │   └── icon-config.ts    # Map icon configuration
+│   │   ├── icon-config.ts    # Map icon configuration
+│   │   └── filter-utils.ts   # Filtering and data processing utilities
 │   └── types/                # TypeScript type definitions
 │       └── index.ts          # All type definitions
 ├── public/                   # Static assets
@@ -91,6 +112,7 @@ The development server automatically generates GeoJSON data files on startup.
 ## How It Works
 
 ### Map Features
+
 - **Location Markers**: Different icons for picketed (gold flag) vs non-picketed (orange flag) locations
 - **30km Buffer Zones**: Red circles showing coverage areas around picketed locations
 - **User Location**: Blue marker with accuracy circle for GPS location
@@ -99,6 +121,7 @@ The development server automatically generates GeoJSON data files on startup.
 - **Nearest Strike Detection**: Automatically finds and highlights the closest strike location to you
 
 ### User Interface
+
 - **Info Panel**: Collapsible panel with map legend and search controls
 - **Location Statistics**: Shows total number of strike locations displayed
 - **Distance Display**: Shows how far you are from the nearest strike location
@@ -108,16 +131,19 @@ The development server automatically generates GeoJSON data files on startup.
 ## Using the Map
 
 ### Finding Your Location
+
 1. Click the "Find My Location" button to use GPS
 2. The map will center on your location and show a blue marker
 3. The nearest strike location will be automatically highlighted
 
 ### Searching by Postal Code
+
 1. Enter a Canadian postal code (e.g., "V6B 1A1") in the search box
 2. The map will center on that location and show a yellow marker
 3. You'll see the nearest strike location and distance
 
 ### Understanding the Map
+
 - **Gold flags**: Locations with active picket lines
 - **Orange flags**: Strike locations without picket lines
 - **Red circles**: 30km coverage areas around picketed locations
@@ -125,11 +151,51 @@ The development server automatically generates GeoJSON data files on startup.
 - **Yellow marker**: Searched postal code location
 
 ### Getting Location Details
+
 - Click on any location marker to see:
   - Full address
   - Business hours
   - Picket line status
   - Location type (liquor store, office, etc.)
+
+### Using the Advanced Filters
+
+#### Filter System
+
+- Access filtering options through the main interface
+- View active filter count and clear all filters when needed
+- Filters automatically update the map display in real-time
+
+#### Location Type Filter
+
+- Select specific types of locations (BC Liquor Store, BC Cannabis Store, Office, etc.)
+- Use "All" to select all types or "None" to clear selection
+- Each type shows a relevant icon for easy identification
+
+#### City Filter
+
+- Search and select specific cities from available options
+- Single city selection for focused results
+- Real-time search matching as you type
+
+#### Picket Status Filter
+
+- **All Locations**: Shows both picketed and non-picketed locations
+- **Picketed Only**: Shows only locations with active picket lines (gold flags)
+- **Not Picketed**: Shows only strike locations without picket lines (orange flags)
+
+#### Address Search
+
+- Search for specific addresses from the available location database
+- Select matching addresses from search results
+- Useful for finding exact locations you're looking for
+
+#### Filter Behavior
+
+- Filters work together - you can combine multiple filter types
+- Results update in real-time as you change filter settings
+- Filter count shows how many locations match your current criteria
+- Clear individual filters or reset all filters at once
 
 ## Data Sources
 
