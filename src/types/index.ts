@@ -63,8 +63,28 @@ export interface MapProps {
   postalLocation?: PostalCodeLocation;
   onLocationClick?: (location: StrikeLocation) => void;
   onNearestStrikeFound?: (nearestStrike: { distance: number; location: StrikeLocation } | undefined) => void;
+  onMapClick?: () => void;
 }
 
+
+export interface FilterState {
+  locationTypes: string[];
+  city: string;
+  picketStatus: 'all' | 'picketed' | 'not-picketed';
+  searchQuery: string;
+}
+
+export interface FilterPanelProps {
+  filterState: FilterState;
+  onFilterChange: (filters: Partial<FilterState>) => void;
+  availableLocationTypes: string[];
+  availableCities: string[];
+  availableAddresses: string[];
+  totalLocationsCount: number;
+  filteredLocationsCount: number;
+  isExpanded: boolean;
+  onToggleExpanded: (expanded: boolean) => void;
+}
 
 export interface InfoPanelProps {
   locationsCount: number;
@@ -74,4 +94,9 @@ export interface InfoPanelProps {
   };
   onUserLocationChange?: (userLocation: UserLocation | undefined) => void;
   onPostalLocationChange?: (postalLocation: PostalCodeLocation | undefined) => void;
+  filterPanel?: React.ReactNode;
+  isFilterExpanded?: boolean;
+  onFilterToggle?: (expanded: boolean) => void;
+  isInfoPanelExpanded?: boolean;
+  onInfoPanelToggle?: (expanded: boolean) => void;
 }
