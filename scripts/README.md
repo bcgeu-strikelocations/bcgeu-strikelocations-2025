@@ -7,9 +7,11 @@ This directory contains scripts for generating GeoJSON data files from the locat
 ### `generate-data.ts`
 
 Main data generation script that:
+
 - Converts the locations JSON data to GeoJSON format
 - Generates 30km buffer zones around picketed locations
 - Outputs the generated files to `public/data/`
+- Uses centralized TypeScript types from `src/types/`
 
 ## Usage
 
@@ -35,8 +37,16 @@ npm run build
 ## Data Flow
 
 1. Reads `src/data/locations.json`
-2. Converts to GeoJSON point features
-3. Filters picketed locations
+2. Converts to GeoJSON point features using `StrikeLocation` type
+3. Filters picketed locations (`is_picket_line: true`)
 4. Creates 30km buffers around picketed locations
-5. Dissolves overlapping buffers
+5. Dissolves overlapping buffers for cleaner visualization
 6. Saves both datasets as GeoJSON files
+
+## Type Safety
+
+The script uses TypeScript types from the centralized `src/types/index.ts` file:
+
+- `StrikeLocation` interface for location data structure
+- Proper type checking for GeoJSON feature properties
+- Ensures data consistency between source and generated files
