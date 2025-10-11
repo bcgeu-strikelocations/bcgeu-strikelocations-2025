@@ -3,14 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Cannabis, Wine, Building2, Truck, Package, Users, Monitor, MapPin } from "lucide-react";
 import { getLocationIconName, getLocationIconColor } from "@/lib/icon-config";
-
-interface LocationTypeFilterProps {
-  availableTypes: string[];
-  selectedTypes: string[];
-  onTypeToggle: (type: string, e?: React.ChangeEvent<HTMLInputElement>) => void;
-  onSelectAll: (e?: React.MouseEvent) => void;
-  onClearAll: (e?: React.MouseEvent) => void;
-}
+import { LocationTypeFilterProps } from "@/types";
 
 export default function LocationTypeFilter({
   availableTypes,

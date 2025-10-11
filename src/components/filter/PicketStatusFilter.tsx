@@ -1,11 +1,7 @@
 "use client";
 
 import { Flag } from "lucide-react";
-
-interface PicketStatusFilterProps {
-  selectedStatus: 'all' | 'picketed' | 'not-picketed';
-  onStatusChange: (status: 'all' | 'picketed' | 'not-picketed', e?: React.ChangeEvent<HTMLInputElement>) => void;
-}
+import { PicketStatusFilterProps } from "@/types";
 
 export default function PicketStatusFilter({ selectedStatus, onStatusChange }: PicketStatusFilterProps) {
   const options = [

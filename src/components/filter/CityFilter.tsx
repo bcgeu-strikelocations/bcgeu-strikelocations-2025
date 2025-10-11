@@ -3,12 +3,7 @@
 import { useState, useEffect } from "react";
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-react";
-
-interface CityFilterProps {
-  availableCities: string[];
-  selectedCity: string;
-  onCityChange: (city: string) => void;
-}
+import { CityFilterProps } from "@/types";
 
 export default function CityFilter({
   availableCities,

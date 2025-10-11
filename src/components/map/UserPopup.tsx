@@ -1,9 +1,5 @@
-import { UserLocation } from '@/types';
+import { UserPopupProps } from '@/types';
 import { User, Navigation, MapPin } from 'lucide-react';
-
-interface UserPopupProps {
-  userLocation: UserLocation;
-}
 
 export default function UserPopup({ userLocation }: UserPopupProps) {
   return (

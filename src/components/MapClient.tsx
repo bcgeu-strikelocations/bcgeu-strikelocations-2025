@@ -2,18 +2,13 @@
 
 import { useState, useCallback, useMemo, useEffect } from 'react';
 import dynamic from 'next/dynamic';
-import { StrikeLocation, PostalCodeLocation, UserLocation, FilterState } from '@/types';
+import { StrikeLocation, PostalCodeLocation, UserLocation, FilterState, MapClientProps } from '@/types';
 import InfoPanel from '@/components/InfoPanel';
 import { FilterPanel } from '@/components/filter';
 import { filterLocations, getUniqueLocationTypes, getUniqueCities, getUniqueAddresses, locationsToGeoJSON } from '@/lib/filter-utils';
 
 // Dynamically import Map to avoid SSR issues
 const Map = dynamic(() => import('@/components/map').then(mod => ({ default: mod.Map })), { ssr: false });
-
-interface MapClientProps {
-  initialLocationsGeoJSON: GeoJSON.FeatureCollection;
-  initialBufferData: GeoJSON.FeatureCollection;
-}
 
 export default function MapClient({ 
   initialLocationsGeoJSON, 

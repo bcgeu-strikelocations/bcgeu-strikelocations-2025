@@ -1,4 +1,4 @@
-import { StrikeLocation } from '@/types';
+import { PopupContentProps } from '@/types';
 import { getLocationIconName, getLocationIconColor } from '@/lib/icon-config';
 import { Cannabis, Wine, Building2, Truck, Package, MapPin, Info, MapPin as LocationIcon, Flag, Users, Monitor } from 'lucide-react';
 
@@ -13,10 +13,6 @@ const iconComponents = {
   Users,
   Monitor
 };
-
-interface PopupContentProps {
-  location: StrikeLocation;
-}
 
 export default function PopupContent({ location }: PopupContentProps) {
   const iconName = getLocationIconName(location.location_type);

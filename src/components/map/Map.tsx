@@ -139,7 +139,7 @@ export default function Map({
               spiderfyOnMaxZoom: true,
               showCoverageOnHover: false,
               zoomToBoundsOnClick: true,
-              iconCreateFunction: (cluster) => {
+              iconCreateFunction: (cluster: L.MarkerCluster) => {
                 const childCount = cluster.getChildCount();
                 return L.divIcon({
                   html: `<div style="

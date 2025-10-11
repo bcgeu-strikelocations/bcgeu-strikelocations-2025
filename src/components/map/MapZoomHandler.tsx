@@ -1,11 +1,6 @@
 import { useEffect } from 'react';
 import { useMap } from 'react-leaflet';
-import { UserLocation, PostalCodeLocation } from '@/types';
-
-interface MapZoomHandlerProps {
-  userLocation?: UserLocation;
-  postalLocation?: PostalCodeLocation;
-}
+import { MapZoomHandlerProps } from '@/types';
 
 export default function MapZoomHandler({ 
   userLocation, 

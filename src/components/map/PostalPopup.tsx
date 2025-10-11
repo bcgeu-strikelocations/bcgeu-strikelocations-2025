@@ -1,9 +1,5 @@
-import { PostalCodeLocation } from '@/types';
+import { PostalPopupProps } from '@/types';
 import { Search, Building, Flag } from 'lucide-react';
-
-interface PostalPopupProps {
-  location: PostalCodeLocation;
-}
 
 export default function PostalPopup({ location }: PostalPopupProps) {
   const data = location.geocoder_data;

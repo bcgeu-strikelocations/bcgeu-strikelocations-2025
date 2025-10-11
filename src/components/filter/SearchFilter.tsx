@@ -3,12 +3,7 @@
 import { useState, useEffect } from "react";
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-react";
-
-interface SearchFilterProps {
-  searchQuery: string;
-  onSearchChange: (query: string) => void;
-  availableAddresses: string[];
-}
+import { SearchFilterProps } from "@/types";
 
 export default function SearchFilter({ searchQuery, onSearchChange, availableAddresses }: SearchFilterProps) {
   const [addressSearchQuery, setAddressSearchQuery] = useState(searchQuery || "");
