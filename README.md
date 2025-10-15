@@ -202,7 +202,6 @@ The development server automatically generates GeoJSON data files on startup.
 - **Strike Locations**: BCGEU-provided location data
 - **Map Tiles**: OpenStreetMap
 - **Geocoding**: geocoder.ca API for Canadian postal codes
-- **Last Updated**: October 9th, 2025
 
 ## Contributing
 

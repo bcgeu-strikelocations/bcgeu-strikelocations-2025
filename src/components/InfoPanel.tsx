@@ -142,7 +142,7 @@ export default function InfoPanel({
       {/* Date Footer */}
       <div className="text-center mt-2">
         <small className="text-xs text-gray-500">
-          Last Updated: October 9th, 2025
+          Last Updated: October 14th, 2025
         </small>
       </div>
     </>
@@ -169,7 +169,7 @@ export default function InfoPanel({
           isInfoPanelExpanded
             ? "opacity-100 translate-x-0 scale-100"
             : "opacity-0 translate-x-full scale-95 pointer-events-none"
-        } ${isMobile ? "w-80 max-h-[80vh] overflow-y-auto" : "w-80"}`}
+        } ${isMobile ? "w-80 max-h-[85vh] overflow-y-auto" : "w-80 max-h-[90vh] overflow-y-auto"}`}
       >
         <div className={`${isMobile ? "p-3" : "p-4"}`}>
           <PanelContent />

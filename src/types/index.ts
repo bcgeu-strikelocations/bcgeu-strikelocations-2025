@@ -82,8 +82,6 @@ export interface FilterPanelProps {
   availableAddresses: string[];
   totalLocationsCount: number;
   filteredLocationsCount: number;
-  isExpanded: boolean;
-  onToggleExpanded: (expanded: boolean) => void;
 }
 
 export interface InfoPanelProps {
@@ -95,10 +93,18 @@ export interface InfoPanelProps {
   onUserLocationChange?: (userLocation: UserLocation | undefined) => void;
   onPostalLocationChange?: (postalLocation: PostalCodeLocation | undefined) => void;
   filterPanel?: React.ReactNode;
-  isFilterExpanded?: boolean;
-  onFilterToggle?: (expanded: boolean) => void;
   isInfoPanelExpanded?: boolean;
   onInfoPanelToggle?: (expanded: boolean) => void;
+}
+
+export interface FilterDropdownProps extends FilterPanelProps {}
+
+export interface FilterAccordionProps {
+  title: string;
+  isExpanded: boolean;
+  onToggle: () => void;
+  children: React.ReactNode;
+  badge?: string;
 }
 
 // Map Client Props
