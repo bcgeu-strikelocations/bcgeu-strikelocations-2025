@@ -97,7 +97,7 @@ export interface InfoPanelProps {
   onInfoPanelToggle?: (expanded: boolean) => void;
 }
 
-export interface FilterDropdownProps extends FilterPanelProps {}
+export type FilterDropdownProps = FilterPanelProps;
 
 export interface FilterAccordionProps {
   title: string;
