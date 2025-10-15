@@ -11,6 +11,7 @@ import { calculateDistance } from "@/lib/utils";
 import { createIcon } from "@/lib/icons";
 import { UserPopup, PostalPopup, MapZoomHandler } from ".";
 import MarkerClusterGroup from "./MarkerClusterGroup";
+import CustomZoomControl from "./CustomZoomControl";
 
 // Component to handle map click events
 function MapClickHandler({ onMapClick }: { onMapClick?: () => void }) {
@@ -21,6 +22,7 @@ function MapClickHandler({ onMapClick }: { onMapClick?: () => void }) {
   });
   return null;
 }
+
 
 export default function Map({
   locationsGeoJSON,
@@ -75,12 +77,12 @@ export default function Map({
   }, [userLocation, locationsGeoJSON, onNearestStrikeFound]);
 
   return (
-    <div className="h-screen w-full">
+    <div className="h-screen w-full relative">
       <MapContainer
-        center={[52.7267, -122.6476]}
+        center={[52.7267, -128.0]}
         zoom={6}
         style={{ height: "100%", width: "100%" }}
-        zoomControl={true}
+        zoomControl={false}
       >
         <MapClickHandler onMapClick={onMapClick} />
         
@@ -94,6 +96,7 @@ export default function Map({
           userLocation={userLocation}
           postalLocation={postalLocation}
         />
+        <CustomZoomControl />
 
         {/* Buffer layer */}
         {bufferData && (

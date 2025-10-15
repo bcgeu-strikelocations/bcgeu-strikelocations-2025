@@ -26,7 +26,6 @@ export default function MapClient({
     picketStatus: 'all',
     searchQuery: '',
   });
-  const [isFilterExpanded, setIsFilterExpanded] = useState(false);
   const [isInfoPanelExpanded, setIsInfoPanelExpanded] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -111,8 +110,6 @@ export default function MapClient({
       availableAddresses={availableAddresses}
       totalLocationsCount={allLocations.length}
       filteredLocationsCount={filteredLocations.length}
-      isExpanded={isFilterExpanded}
-      onToggleExpanded={setIsFilterExpanded}
     />
   ), [
     filterState,
@@ -121,9 +118,7 @@ export default function MapClient({
     availableCities,
     availableAddresses,
     allLocations.length,
-    filteredLocations.length,
-    isFilterExpanded,
-    setIsFilterExpanded
+    filteredLocations.length
   ]);
 
   return (
@@ -143,8 +138,6 @@ export default function MapClient({
         onUserLocationChange={handleUserLocationChange}
         onPostalLocationChange={handlePostalLocationChange}
         filterPanel={filterPanel}
-        isFilterExpanded={isFilterExpanded}
-        onFilterToggle={setIsFilterExpanded}
         isInfoPanelExpanded={isInfoPanelExpanded}
         onInfoPanelToggle={setIsInfoPanelExpanded}
       />

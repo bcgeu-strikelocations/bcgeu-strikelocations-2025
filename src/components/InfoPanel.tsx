@@ -142,7 +142,7 @@ export default function InfoPanel({
       {/* Date Footer */}
       <div className="text-center mt-2">
         <small className="text-xs text-gray-500">
-          Last Updated: October 9th, 2025
+          Last Updated: October 14th, 2025
         </small>
       </div>
     </>
@@ -154,7 +154,7 @@ export default function InfoPanel({
       {!isInfoPanelExpanded && (
         <Button
           onClick={toggleExpanded}
-          className={`absolute top-1 sm:top-4 right-1 sm:right-2 bg-bcgeu-blue-600 hover:bg-bcgeu-blue-700 text-white rounded-full shadow-lg z-[1000] transition-all duration-200 hover:scale-105 ${
+          className={`absolute top-1 sm:top-4 left-1 sm:left-2 bg-bcgeu-blue-600 hover:bg-bcgeu-blue-700 text-white rounded-full shadow-lg z-[1000] transition-all duration-200 hover:scale-105 ${
             isMobile ? "h-10 w-10" : "h-12 w-12"
           }`}
           size="icon"
@@ -165,11 +165,11 @@ export default function InfoPanel({
 
       {/* Info Panel with responsive positioning */}
       <div
-        className={`absolute top-2 sm:top-4 right-1 sm:right-2 bg-white rounded-lg shadow-lg border border-bcgeu-blue-200 z-[1000] transition-all duration-300 ease-out transform ${
+        className={`absolute top-2 sm:top-4 left-1 sm:left-2 bg-white rounded-lg shadow-lg border border-bcgeu-blue-200 z-[1000] transition-all duration-300 ease-out transform ${
           isInfoPanelExpanded
             ? "opacity-100 translate-x-0 scale-100"
-            : "opacity-0 translate-x-full scale-95 pointer-events-none"
-        } ${isMobile ? "w-80 max-h-[80vh] overflow-y-auto" : "w-80"}`}
+            : "opacity-0 -translate-x-full scale-95 pointer-events-none"
+        } ${isMobile ? "w-80 max-h-[85vh] overflow-y-auto" : "w-80 max-h-[90vh] overflow-y-auto"}`}
       >
         <div className={`${isMobile ? "p-3" : "p-4"}`}>
           <PanelContent />
