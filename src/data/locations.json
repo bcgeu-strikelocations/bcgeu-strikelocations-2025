@@ -2450,10 +2450,10 @@
     },
     {
       "city": "100 Mile House",
-      "address": "300 Highway 97 South",
+      "address": "300 Hwy 97 S",
       "coordinates": [-121.29777555927213, 51.64464132124053],
-      "hours_details": "Picketing redirected to 95a Cariboo Highway 97",
-      "is_picket_line": false,
+      "hours_details": "Monday to Friday, 8:30am-4:30pm",
+      "is_picket_line": true,
       "location_type": "Front Desk BC"
     },
     {
@@ -2514,10 +2514,10 @@
     },
     {
       "city": "Courtenay",
-      "address": "2500 Cliffe Avenue",
+      "address": "2500 Cliffe Ave",
       "coordinates": [-124.98237166878097, 49.67635207060494],
-      "hours_details": "picketing redirected to 1095 Cliffe Ave",
-      "is_picket_line": false,
+      "hours_details": "Monday to Friday, 8am-4pm",
+      "is_picket_line": true,
       "location_type": "Service BC"
     },
     {
@@ -3034,11 +3034,11 @@
     },
     {
       "city": "Port McNeil",
-      "address": "2217 Mine Road",
+      "address": "2217 Mine Rd",
       "coordinates": [-127.07977757124559, 50.580412465194755],
-      "hours_details": "Picketing redirected to 1705 Campbell Way",
+      "hours_details": "Picketing on site",
       "location_type": "Front Desk BC",
-      "is_picket_line": false
+      "is_picket_line": true
     },
     {
       "city": "Port Hardy",
@@ -3066,9 +3066,9 @@
     },
     {
       "city": "Terrace",
-      "address": "200 - 5220 Keith Avenue",
+      "address": "5220 Keith Avenue",
       "coordinates": [-128.6273037073156, 54.51444932046109],
-      "hours_details": "Picketing redirected to 3240 Eby Street, Terrace",
+      "hours_details": "Picketing at 3240 Eby St, Terrace (BC Liquor store)",
       "location_type": "Front Desk BC",
       "is_picket_line": false
     },
@@ -3082,11 +3082,11 @@
     },
     {
       "city": "Vernon",
-      "address": "2501 14 Avenue",
+      "address": "2501 14 Ave",
       "coordinates": [-119.26442743844594, 50.25220315117574],
-      "hours_details": "Picketing at the Vernon LDB and Vernon Cannabis",
+      "hours_details": "Monday to Friday. 8am-4pm",
       "location_type": "Front Desk BC",
-      "is_picket_line": false
+      "is_picket_line": true
     },
     {
       "city": "Nanaimo",
@@ -3100,9 +3100,9 @@
       "city": "Prince George",
       "address": "5th Floor - 499 George Street",
       "coordinates": [-122.74436806142229, 53.9147480203498],
-      "hours_details": "Picketing redirected to 3173 Massey Dr",
+      "hours_details": "Monday to Friday, 7:30am-5:30pm",
       "location_type": "Front Desk BC",
-      "is_picket_line": false
+      "is_picket_line": true
     },
     {
       "city": "Sechelt",
@@ -3194,17 +3194,17 @@
     },
     {
       "city": "Quesnel",
-      "address": "322 Johnston Avenue",
+      "address": "322 Johnston Ave",
       "coordinates": [-122.49288908690743, 52.96912288420654],
-      "hours_details": "Picketing redirected to 488 Reid St",
+      "hours_details": "Picketing at 488 Reid St, Quesnel (BC Liquor store)",
       "location_type": "Front Desk BC",
       "is_picket_line": false
     },
     {
       "city": "Cranbrook",
-      "address": "1902 Theatre Road",
+      "address": "1902 Theatre Rd",
       "coordinates": [-115.75332943051427, 49.53211594678178],
-      "hours_details": "Picketing redirected to 100 425 Victoria Ave N",
+      "hours_details": "Picketing at 117 10th Ave, Cranbrook",
       "location_type": "Front Desk BC",
       "is_picket_line": false
     },
@@ -3298,9 +3298,9 @@
     },
     {
       "city": "Dawson Creek",
-      "address": "9000 17th Street",
+      "address": "9000 17th St",
       "coordinates": [-120.25007109532181, 55.77332626371532],
-      "hours_details": "Picketing redirected to 1020 Alaska Ave",
+      "hours_details": "Picketing redirected to LDB  site (1020 Alaska Ave, Dawson Creek)",
       "location_type": "Front Desk BC",
       "is_picket_line": false
     },
@@ -3322,11 +3322,11 @@
     },
     {
       "city": "Vanderhoof",
-      "address": "1560 Highway 16 East",
+      "address": "1560 Hwy 16 E",
       "coordinates": [-123.99493321358443, 54.007914153341915],
-      "hours_details": "Picketing redirected to BCL 2557 Burrard Ave,",
+      "hours_details": "Monday to Friday, 9am-5pm",
       "location_type": "Front Desk BC",
-      "is_picket_line": false
+      "is_picket_line": true
     },
     {
       "city": "Surrey",
@@ -3362,11 +3362,11 @@
     },
     {
       "city": "Mackenzie",
-      "address": "1 Cicada Road",
+      "address": "1 Cicada Rd",
       "coordinates": [-123.09274918681272, 55.32283584087911],
-      "hours_details": "Picketing redirected to 403 Mackenzie Blvd",
+      "hours_details": "Monday to Friday, 9am-5pm",
       "location_type": "Front Desk BC",
-      "is_picket_line": false
+      "is_picket_line": true
     },
     {
       "city": "Castlegar",
@@ -3386,11 +3386,11 @@
     },
     {
       "city": "Campbell River",
-      "address": "370 S Dogwood Street",
+      "address": "370 Dogwood St S",
       "coordinates": [-125.24798838631435, 50.000797607874624],
-      "hours_details": "Picketing redirected to 270 1400 Dogwood St",
+      "hours_details": "Monday to Friday, 8am-4pm",
       "location_type": "Front Desk BC",
-      "is_picket_line": false
+      "is_picket_line": true
     },
     {
       "city": "Logan Lake",
@@ -3404,9 +3404,9 @@
       "city": "Merritt",
       "address": "3840 Airport Rd",
       "coordinates": [-120.74816086484279, 50.12555814125625],
-      "hours_details": "Picketing redirected to 104 1700 Garcia St",
+      "hours_details": "Monday to Friday, 8am-4pm",
       "location_type": "Front Desk BC",
-      "is_picket_line": false
+      "is_picket_line": true
     },
     {
       "city": "Massett",
@@ -3468,7 +3468,7 @@
       "city": "Squamish",
       "address": "42000 Loggers Ln Suite 101",
       "coordinates": [-123.13967762169467, 49.7263702044754],
-      "hours_details": "Picketing redirected to 40204 Glenalder Place, Squamish",
+      "hours_details": "Picketing at nearest picket line",
       "location_type": "Front Desk BC",
       "is_picket_line": false
     },
@@ -3570,6 +3570,94 @@
       "hours_details": "Picketing redirected to existing Picket lines",
       "location_type": "Office",
       "is_picket_line": false
+    },
+    {
+      "city": "Kamloops",
+      "address": "1259 Dalhousie Dr",
+      "coordinates": [
+        -120.36347007294857,
+        50.66608652670835
+      ],
+      "hours_details": "Picketing at nearest picket line",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Kamloops",
+      "address": "1265 Dalhousie Dr",
+      "coordinates": [
+        -120.36307349333661,
+        50.665348999724905
+      ],
+      "hours_details": "Picketing at nearest picket line",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Kelowna",
+      "address": "1690 Powick Rd",
+      "coordinates": [
+        -119.42371889782443,
+        49.89017282436203
+      ],
+      "hours_details": "Monday to Friday, 8am-4pm",
+      "is_picket_line": true,
+      "location_type": "Office"
+    },
+    {
+      "city": "Nelson",
+      "address": "1907 Ridgewood Rd",
+      "coordinates": [
+        -117.25762704400408,
+        49.550745525956515
+      ],
+      "hours_details": "Picketing at 820B Nelson Ave, Nelson",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Nelson",
+      "address": "820B Nelson Ave",
+      "coordinates": [
+        -117.27886063550854,
+        49.5062907646906
+      ],
+      "hours_details": "Monday to Friday, 8:30am-4:30pm",
+      "is_picket_line": true,
+      "location_type": "Office"
+    },
+    {
+      "city": "Prince George",
+      "address": "2000 Ospika Blvd S",
+      "coordinates": [
+        -122.79653593365195,
+        53.904452312443624
+      ],
+      "hours_details": "Monday to Friday, 8am-5pm",
+      "is_picket_line": true,
+      "location_type": "Office"
+    },
+    {
+      "city": "Smithers",
+      "address": "3333 Tatlow Rd",
+      "coordinates": [
+        -127.14015538544287,
+        54.77204136369778
+      ],
+      "hours_details": "Picketing at 3726 Alfred Ave, Smithers",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Surrey",
+      "address": "18793 32 Ave",
+      "coordinates": [
+        -122.70357423471968,
+        49.06085034178908
+      ],
+      "hours_details": "Picketing at nearest picket line",
+      "is_picket_line": false,
+      "location_type": "Office"
     }
   ]
 }
