@@ -3471,6 +3471,105 @@
       "hours_details": "Picketing redirected to 40204 Glenalder Place, Squamish",
       "location_type": "Front Desk BC",
       "is_picket_line": false
+    },
+    {
+      "city": "Burnaby",
+      "address": "7900 Fraser Park Drive (Burnaby Youth Custody Services Centre)",
+      "coordinates": [
+        -122.98591954873385,
+        49.1860239660623
+      ],
+      "hours_details": "Picketing redirected to existing Picket lines",
+      "location_type": "Office",
+      "is_picket_line": false
+    },
+    {
+      "city": "Chilliwack",
+      "address": "57657 Chilliwack Lake Rd (Ford Mountain Correctional Centre Chilliwack)",
+      "coordinates": [
+        -121.63356232982856,
+        49.103730943610515
+      ],
+      "hours_details": "Picketing redirected to existing Picket lines",
+      "location_type": "Office",
+      "is_picket_line": false
+    },
+    {
+      "city": "Kamloops",
+      "address": "2250 W. Trans Canada Highway (Kamloops Regional Correctional Centre )",
+      "coordinates": [
+        -120.41195937632895,
+        50.66646407374611
+      ],
+      "hours_details": "Picketing redirected to existing Picket lines",
+      "location_type": "Office",
+      "is_picket_line": false
+    },
+    {
+      "city": "Maple Ridge",
+      "address": "13777 256th St (Fraser Regional Correctional Centre )",
+      "coordinates": [
+        -122.51285270283465,
+        49.254604628290586
+      ],
+      "hours_details": "Picketing redirected to existing Picket lines",
+      "location_type": "Office",
+      "is_picket_line": false
+    },
+    {
+      "city": "Maple Ridge",
+      "address": "24800 Alouette Road (Alouette Corrections Centre For Women)",
+      "coordinates": [
+        -122.52904580283506,
+        49.24800203699406
+      ],
+      "hours_details": "Picketing redirected to existing Picket lines",
+      "location_type": "Office",
+      "is_picket_line": false
+    },
+    {
+      "city": "Nanaimo",
+      "address": "3945 Biggs Road (Nanaimo Correctional )",
+      "coordinates": [
+        -124.04726913167235,
+        49.20955874411619
+      ],
+      "hours_details": "Picketing redirected to existing Picket lines",
+      "location_type": "Office",
+      "is_picket_line": false
+    },
+    {
+      "city": "Oliver",
+      "address": "200 Enterprise Way (Okanagan Correctional Centre PSSG)",
+      "coordinates": [
+        -119.53487197215149,
+        49.225833400383564
+      ],
+      "hours_details": "Picketing redirected to existing Picket lines",
+      "location_type": "Office",
+      "is_picket_line": false
+    },
+    {
+      "city": "Port Coquitlam",
+      "address": "1451 Kingsway Avenue (North Fraser Pretrial Centre)",
+      "coordinates": [
+        -122.7538513739993,
+        49.24996821848336
+      ],
+      "hours_details": "Picketing redirected to existing Picket lines",
+      "location_type": "Office",
+      "is_picket_line": false
+    },
+    {
+      "city": "Prince George",
+      "address": "795 Highway 16 East (Prince George Regional Correctional Centre )",
+      "coordinates": [
+        -122.70870698723802,
+        53.90768308474406
+      ],
+      "hours_details": "Picketing redirected to existing Picket lines",
+      "location_type": "Office",
+      "is_picket_line": false
     }
   ]
 }
