@@ -3372,9 +3372,9 @@
       "city": "Castlegar",
       "address": "845 Columbia Avenue",
       "coordinates": [-117.66443621759123, 49.31780318976541],
-      "hours_details": "Picketing redirected to 635 Columbia Ave",
+      "hours_details": "Picket line on site",
       "location_type": "Front Desk BC",
-      "is_picket_line": false
+      "is_picket_line": true
     },
     {
       "city": "Madeira Park",
@@ -3654,6 +3654,72 @@
       "coordinates": [
         -122.70357423471968,
         49.06085034178908
+      ],
+      "hours_details": "Picketing at nearest picket line",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Abbotsford",
+      "address": "1767 Angus Campbell Rd",
+      "coordinates": [
+        -122.24650278391059,
+        49.035052074069725
+      ],
+      "hours_details": "Picket line on site",
+      "is_picket_line": true,
+      "location_type": "Office"
+    },
+    {
+      "city": "Creston",
+      "address": "1243 Northwest Blvd",
+      "coordinates": [
+        -116.52464603265278,
+        49.110282133856415
+      ],
+      "hours_details": "Picketing at 2-1000 NW Blvd Mall, Creston",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Fort St. John",
+      "address": "10043 100 St",
+      "coordinates": [
+        -120.84703686352509,
+        56.24720902501615
+      ],
+      "hours_details": "Picketing at nearest picket line",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Kelowna",
+      "address": "1500 Hardy St",
+      "coordinates": [
+        -119.44810052955141,
+        49.88405542972869
+      ],
+      "hours_details": "Picketing at nearest picket line",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Oliver",
+      "address": "583 Fairview Rd",
+      "coordinates": [
+        -119.55316165904448,
+        49.18100156288061
+      ],
+      "hours_details": "Picketing at nearest picket line",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Salmon Arm",
+      "address": "1810 40 St SE",
+      "coordinates": [
+        -119.23698684458503,
+        50.687625724135565
       ],
       "hours_details": "Picketing at nearest picket line",
       "is_picket_line": false,
