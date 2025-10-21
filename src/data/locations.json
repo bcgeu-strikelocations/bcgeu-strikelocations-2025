@@ -2396,8 +2396,8 @@
       "city": "Duncan",
       "address": "5785 Duncan St",
       "coordinates": [-123.70667074403208, 48.78100626117328],
-      "hours_details": "",
-      "is_picket_line": false,
+      "hours_details": "Picket line on site",
+      "is_picket_line": true,
       "location_type": "Service BC"
     },
     {
@@ -2940,7 +2940,7 @@
       "city": "Fort Nelson",
       "address": "5107 Airport Dr",
       "coordinates": [-122.69750285820936, 58.806919687950504],
-      "hours_details": "",
+      "hours_details": "BC Liquor Store #222, Fort Nelson Picket line on site",
       "is_picket_line": true,
       "location_type": "BC Liquor Store"
     },
@@ -3066,9 +3066,9 @@
     },
     {
       "city": "Terrace",
-      "address": "5220 Keith Avenue",
+      "address": "5220 Keith Ave",
       "coordinates": [-128.6273037073156, 54.51444932046109],
-      "hours_details": "Picketing at 3240 Eby St, Terrace (BC Liquor store)",
+      "hours_details": "Picketing redirected to 3240 Eby St, Terrace (BCLS)",
       "location_type": "Front Desk BC",
       "is_picket_line": false
     },
@@ -3082,9 +3082,9 @@
     },
     {
       "city": "Vernon",
-      "address": "2501 14 Ave",
+      "address": "2501 14th Ave",
       "coordinates": [-119.26442743844594, 50.25220315117574],
-      "hours_details": "Monday to Friday. 8am-4pm",
+      "hours_details": "Picket line on site",
       "location_type": "Front Desk BC",
       "is_picket_line": true
     },
@@ -3098,9 +3098,9 @@
     },
     {
       "city": "Prince George",
-      "address": "5th Floor - 499 George Street",
+      "address": "499 George Street",
       "coordinates": [-122.74436806142229, 53.9147480203498],
-      "hours_details": "Monday to Friday, 7:30am-5:30pm",
+      "hours_details": "Picket line on site",
       "location_type": "Front Desk BC",
       "is_picket_line": true
     },
@@ -3156,7 +3156,7 @@
       "city": "Port Alberni",
       "address": "4885 Cherry Creek Road",
       "coordinates": [-124.78779005055573, 49.263288148965],
-      "hours_details": "Picketing redirected to 3764 10h Avenue",
+      "hours_details": "Picketing at either 3764 10th Ave, Port Alberni OR 3555 Johnston Rd, Port Alberni",
       "location_type": "Front Desk BC",
       "is_picket_line": false
     },
@@ -3194,9 +3194,9 @@
     },
     {
       "city": "Quesnel",
-      "address": "322 Johnston Ave",
+      "address": "322 Johnston Avenue",
       "coordinates": [-122.49288908690743, 52.96912288420654],
-      "hours_details": "Picketing at 488 Reid St, Quesnel (BC Liquor store)",
+      "hours_details": "Picketing redirected to 488 Reid St",
       "location_type": "Front Desk BC",
       "is_picket_line": false
     },
@@ -3324,7 +3324,7 @@
       "city": "Vanderhoof",
       "address": "1560 Hwy 16 E",
       "coordinates": [-123.99493321358443, 54.007914153341915],
-      "hours_details": "Monday to Friday, 9am-5pm",
+      "hours_details": "Picket line on site",
       "location_type": "Front Desk BC",
       "is_picket_line": true
     },
@@ -3388,7 +3388,7 @@
       "city": "Campbell River",
       "address": "370 Dogwood St S",
       "coordinates": [-125.24798838631435, 50.000797607874624],
-      "hours_details": "Monday to Friday, 8am-4pm",
+      "hours_details": "Picket line on site",
       "location_type": "Front Desk BC",
       "is_picket_line": true
     },
@@ -3466,19 +3466,16 @@
     },
     {
       "city": "Squamish",
-      "address": "42000 Loggers Ln Suite 101",
+      "address": "42000 Loggers Lane",
       "coordinates": [-123.13967762169467, 49.7263702044754],
-      "hours_details": "Picketing at nearest picket line",
+      "hours_details": "Picketing redirected to 40204 Glenalder Place, Squamish",
       "location_type": "Front Desk BC",
       "is_picket_line": false
     },
     {
       "city": "Burnaby",
       "address": "7900 Fraser Park Drive (Burnaby Youth Custody Services Centre)",
-      "coordinates": [
-        -122.98591954873385,
-        49.1860239660623
-      ],
+      "coordinates": [-122.98591954873385, 49.1860239660623],
       "hours_details": "Picketing redirected to existing Picket lines",
       "location_type": "Office",
       "is_picket_line": false
@@ -3486,10 +3483,7 @@
     {
       "city": "Chilliwack",
       "address": "57657 Chilliwack Lake Rd (Ford Mountain Correctional Centre Chilliwack)",
-      "coordinates": [
-        -121.63356232982856,
-        49.103730943610515
-      ],
+      "coordinates": [-121.63356232982856, 49.103730943610515],
       "hours_details": "Picketing redirected to existing Picket lines",
       "location_type": "Office",
       "is_picket_line": false
@@ -3497,10 +3491,7 @@
     {
       "city": "Kamloops",
       "address": "2250 W. Trans Canada Highway (Kamloops Regional Correctional Centre )",
-      "coordinates": [
-        -120.41195937632895,
-        50.66646407374611
-      ],
+      "coordinates": [-120.41195937632895, 50.66646407374611],
       "hours_details": "Picketing redirected to existing Picket lines",
       "location_type": "Office",
       "is_picket_line": false
@@ -3508,10 +3499,7 @@
     {
       "city": "Maple Ridge",
       "address": "13777 256th St (Fraser Regional Correctional Centre )",
-      "coordinates": [
-        -122.51285270283465,
-        49.254604628290586
-      ],
+      "coordinates": [-122.51285270283465, 49.254604628290586],
       "hours_details": "Picketing redirected to existing Picket lines",
       "location_type": "Office",
       "is_picket_line": false
@@ -3519,10 +3507,7 @@
     {
       "city": "Maple Ridge",
       "address": "24800 Alouette Road (Alouette Corrections Centre For Women)",
-      "coordinates": [
-        -122.52904580283506,
-        49.24800203699406
-      ],
+      "coordinates": [-122.52904580283506, 49.24800203699406],
       "hours_details": "Picketing redirected to existing Picket lines",
       "location_type": "Office",
       "is_picket_line": false
@@ -3530,10 +3515,7 @@
     {
       "city": "Nanaimo",
       "address": "3945 Biggs Road (Nanaimo Correctional )",
-      "coordinates": [
-        -124.04726913167235,
-        49.20955874411619
-      ],
+      "coordinates": [-124.04726913167235, 49.20955874411619],
       "hours_details": "Picketing redirected to existing Picket lines",
       "location_type": "Office",
       "is_picket_line": false
@@ -3541,10 +3523,7 @@
     {
       "city": "Oliver",
       "address": "200 Enterprise Way (Okanagan Correctional Centre PSSG)",
-      "coordinates": [
-        -119.53487197215149,
-        49.225833400383564
-      ],
+      "coordinates": [-119.53487197215149, 49.225833400383564],
       "hours_details": "Picketing redirected to existing Picket lines",
       "location_type": "Office",
       "is_picket_line": false
@@ -3552,10 +3531,7 @@
     {
       "city": "Port Coquitlam",
       "address": "1451 Kingsway Avenue (North Fraser Pretrial Centre)",
-      "coordinates": [
-        -122.7538513739993,
-        49.24996821848336
-      ],
+      "coordinates": [-122.7538513739993, 49.24996821848336],
       "hours_details": "Picketing redirected to existing Picket lines",
       "location_type": "Office",
       "is_picket_line": false
@@ -3563,10 +3539,7 @@
     {
       "city": "Prince George",
       "address": "795 Highway 16 East (Prince George Regional Correctional Centre )",
-      "coordinates": [
-        -122.70870698723802,
-        53.90768308474406
-      ],
+      "coordinates": [-122.70870698723802, 53.90768308474406],
       "hours_details": "Picketing redirected to existing Picket lines",
       "location_type": "Office",
       "is_picket_line": false
@@ -3574,10 +3547,7 @@
     {
       "city": "Kamloops",
       "address": "1259 Dalhousie Dr",
-      "coordinates": [
-        -120.36347007294857,
-        50.66608652670835
-      ],
+      "coordinates": [-120.36347007294857, 50.66608652670835],
       "hours_details": "Picketing at nearest picket line",
       "is_picket_line": false,
       "location_type": "Office"
@@ -3585,21 +3555,15 @@
     {
       "city": "Kamloops",
       "address": "1265 Dalhousie Dr",
-      "coordinates": [
-        -120.36307349333661,
-        50.665348999724905
-      ],
-      "hours_details": "Picketing at nearest picket line",
+      "coordinates": [-120.36307349333661, 50.665348999724905],
+      "hours_details": "Picketing redirected to closest line",
       "is_picket_line": false,
       "location_type": "Office"
     },
     {
       "city": "Kelowna",
       "address": "1690 Powick Rd",
-      "coordinates": [
-        -119.42371889782443,
-        49.89017282436203
-      ],
+      "coordinates": [-119.42371889782443, 49.89017282436203],
       "hours_details": "Monday to Friday, 8am-4pm",
       "is_picket_line": true,
       "location_type": "Office"
@@ -3607,10 +3571,7 @@
     {
       "city": "Nelson",
       "address": "1907 Ridgewood Rd",
-      "coordinates": [
-        -117.25762704400408,
-        49.550745525956515
-      ],
+      "coordinates": [-117.25762704400408, 49.550745525956515],
       "hours_details": "Picketing at 820B Nelson Ave, Nelson",
       "is_picket_line": false,
       "location_type": "Office"
@@ -3618,54 +3579,39 @@
     {
       "city": "Nelson",
       "address": "820B Nelson Ave",
-      "coordinates": [
-        -117.27886063550854,
-        49.5062907646906
-      ],
-      "hours_details": "Monday to Friday, 8:30am-4:30pm",
+      "coordinates": [-117.27886063550854, 49.5062907646906],
+      "hours_details": "Picket line on site",
       "is_picket_line": true,
       "location_type": "Office"
     },
     {
       "city": "Prince George",
-      "address": "2000 Ospika Blvd S",
-      "coordinates": [
-        -122.79653593365195,
-        53.904452312443624
-      ],
-      "hours_details": "Monday to Friday, 8am-5pm",
+      "address": "2000 South Ospika Blvd",
+      "coordinates": [-122.79653593365195, 53.904452312443624],
+      "hours_details": "Picket line on site",
       "is_picket_line": true,
       "location_type": "Office"
     },
     {
       "city": "Smithers",
       "address": "3333 Tatlow Rd",
-      "coordinates": [
-        -127.14015538544287,
-        54.77204136369778
-      ],
-      "hours_details": "Picketing at 3726 Alfred Ave, Smithers",
+      "coordinates": [-127.14015538544287, 54.77204136369778],
+      "hours_details": "Picketing redirected to 3726 Alfred Ave, Smithers",
       "is_picket_line": false,
       "location_type": "Office"
     },
     {
       "city": "Surrey",
-      "address": "18793 32 Ave",
-      "coordinates": [
-        -122.70357423471968,
-        49.06085034178908
-      ],
-      "hours_details": "Picketing at nearest picket line",
+      "address": "18793 32nd St",
+      "coordinates": [-122.70357423471968, 49.06085034178908],
+      "hours_details": "Picketing redirected to nearest picket line",
       "is_picket_line": false,
       "location_type": "Office"
     },
     {
       "city": "Abbotsford",
       "address": "1767 Angus Campbell Rd",
-      "coordinates": [
-        -122.24650278391059,
-        49.035052074069725
-      ],
+      "coordinates": [-122.24650278391059, 49.035052074069725],
       "hours_details": "Picket line on site",
       "is_picket_line": true,
       "location_type": "Office"
@@ -3673,54 +3619,247 @@
     {
       "city": "Creston",
       "address": "1243 Northwest Blvd",
-      "coordinates": [
-        -116.52464603265278,
-        49.110282133856415
-      ],
-      "hours_details": "Picketing at 2-1000 NW Blvd Mall, Creston",
+      "coordinates": [-116.52464603265278, 49.110282133856415],
+      "hours_details": "picketing redirected to 2-1000 NW Blvd Mall",
       "is_picket_line": false,
       "location_type": "Office"
     },
     {
       "city": "Fort St. John",
       "address": "10043 100 St",
-      "coordinates": [
-        -120.84703686352509,
-        56.24720902501615
-      ],
-      "hours_details": "Picketing at nearest picket line",
+      "coordinates": [-120.84703686352509, 56.24720902501615],
+      "hours_details": "picketing redirect to 10215 100th St.",
       "is_picket_line": false,
       "location_type": "Office"
     },
     {
       "city": "Kelowna",
       "address": "1500 Hardy St",
-      "coordinates": [
-        -119.44810052955141,
-        49.88405542972869
-      ],
-      "hours_details": "Picketing at nearest picket line",
+      "coordinates": [-119.44810052955141, 49.88405542972869],
+      "hours_details": "picketing redirected to the nearest line",
       "is_picket_line": false,
       "location_type": "Office"
     },
     {
       "city": "Oliver",
       "address": "583 Fairview Rd",
-      "coordinates": [
-        -119.55316165904448,
-        49.18100156288061
-      ],
-      "hours_details": "Picketing at nearest picket line",
+      "coordinates": [-119.55316165904448, 49.18100156288061],
+      "hours_details": "picketing redirected to 5966 Main St",
       "is_picket_line": false,
       "location_type": "Office"
     },
     {
       "city": "Salmon Arm",
       "address": "1810 40 St SE",
-      "coordinates": [
-        -119.23698684458503,
-        50.687625724135565
-      ],
+      "coordinates": [-119.23698684458503, 50.687625724135565],
+      "hours_details": "picketing redirected to 360 Trans-Canada Hwy",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Atlin",
+      "address": "PO Box 180",
+      "coordinates": [-133.70510005341418, 59.57314932408724],
+      "hours_details": "Virtual picketing",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Black Creek",
+      "address": "1812 Miracle Beach Dr",
+      "coordinates": [-125.10162330402589, 49.85062501123655],
+      "hours_details": "Picketing at either 1095 Cliffe, Courtenay or 2116 South island Hwy, Campbell River",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Brackendale",
+      "address": "2426 Alice Lake Park",
+      "coordinates": [-123.11894853492936, 49.7875083020758],
+      "hours_details": "Picketing at nearest picket line",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Clearwater",
+      "address": "6740 Boundary Rd",
+      "coordinates": [-120.05444077778354, 51.94297787774032],
+      "hours_details": "Picketing at BC Liquor Store #7 (74 Young Rd, Chilliwack)",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Cultus Lake",
+      "address": "2950 Columbia Valley Hwy",
+      "coordinates": [-121.96660866789415, 49.056735977803925],
+      "hours_details": "Picketing at nearest picket line",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Dease Lake",
+      "address": "PO Box 70",
+      "coordinates": [-129.98599895603942, 58.43469397040605],
+      "hours_details": "Virtual picketing",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Fernie",
+      "address": "1621A 10th Ave",
+      "coordinates": [-115.06162830925484, 49.51642002791734],
+      "hours_details": "Picketing at nearest picket line or virtual picket",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Fort Nelson",
+      "address": "PO Box 247",
+      "coordinates": [-122.68972993116974, 58.80997631788836],
+      "hours_details": "Picketing at BC Liquor Store #222 (5107 Airport Drive, Fort Nelson)",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Golden",
+      "address": "504 9 Ave N",
+      "coordinates": [-116.96663113124323, 51.300330704384386],
+      "hours_details": "Picketing at 906 10th Ave S, Golden",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Hagensborg",
+      "address": "1650 Airport Rd",
+      "coordinates": [-126.58675266291802, 52.38573474467477],
+      "hours_details": "Virtual picketing",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Kamloops",
+      "address": "1255 Dalhousie Dr",
+      "coordinates": [-120.36352719859619, 50.666677717463],
+      "hours_details": "Picketing at 441 Columbia St, Kamloops",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Manning Park",
+      "address": "7500 BC-3",
+      "coordinates": [-120.81955782799022, 49.06378358564996],
+      "hours_details": "Picketing at nearest picket line or virtual picket",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Merritt",
+      "address": "Hwy 5A Airport Rd",
+      "coordinates": [-120.748152501412, 50.12552399935974],
+      "hours_details": "Picketing at 3840 Airport Rd, Merritt",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Mission",
+      "address": "7266 River Pl",
+      "coordinates": [-122.35014321579284, 49.13366009571453],
+      "hours_details": "Picketing at nearest picket line",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "North Vancouver",
+      "address": "1610 Mount Seymour Rd",
+      "coordinates": [-122.97098267933951, 49.32312640996264],
+      "hours_details": "Picketing at nearest picket line",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Parksville",
+      "address": "1240 Rath Rd",
+      "coordinates": [-124.26957225677141, 49.31893628209106],
+      "hours_details": "Picketing at 810 Island Hwy W, Parksville",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Powell River",
+      "address": "6953 Alberni St",
+      "coordinates": [-124.52303441458724, 49.8456904409043],
+      "hours_details": "Picketing at BC Liquor Store #41 (7100 Alberni St, Powell River)",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Prince George",
+      "address": "4051 18th Ave",
+      "coordinates": [-122.79619793261364, 53.907176201928465],
+      "hours_details": "Picketing at BC Liquor Store #174 (Prince George Pine Centre)",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Prince Rupert",
+      "address": "2351 Seal Cove Rd",
+      "coordinates": [-130.28405167505156, 54.332943210385686],
+      "hours_details": "Picketing at BC Liquor Store #35 (100 2nd Ave W, Prince Rupert)",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Salmon Arm",
+      "address": "1751 10th Ave SW",
+      "coordinates": [-119.30520944988395, 50.69345360291499],
+      "hours_details": "Picketing at BC Liquor Store #48, 500-360 Trans Canada Hwy, Salmon Arm",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Sechelt",
+      "address": "6451 Sechelt Inlet Rd",
+      "coordinates": [-123.747441543928, 49.507395150734816],
+      "hours_details": "Picketing at nearest picket line or virtual picket",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Tlell",
+      "address": "General Delivery",
+      "coordinates": [-131.92989714160194, 53.561803756574726],
+      "hours_details": "picketing redirected to the LDB",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Tofino",
+      "address": "175 Airport Rd",
+      "coordinates": [-125.76646131235117, 49.080227813473],
+      "hours_details": "Picketing at 328 Neill Street, Tofino",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Vancouver",
+      "address": "3070 Kingsway Ave",
+      "coordinates": [-123.04089065874078, 49.23544108186876],
+      "hours_details": "Picketing at nearest picket line",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Vancouver",
+      "address": "2202 Main Mall",
+      "coordinates": [-123.25125627116273, 49.26354042574589],
+      "hours_details": "Picketing at nearest picket line",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Vernon",
+      "address": "4607 23rd St",
+      "coordinates": [-119.26195217963506, 50.279537785876364],
       "hours_details": "Picketing at nearest picket line",
       "is_picket_line": false,
       "location_type": "Office"
