@@ -2516,7 +2516,7 @@
       "city": "Courtenay",
       "address": "2500 Cliffe Ave",
       "coordinates": [-124.98237166878097, 49.67635207060494],
-      "hours_details": "Monday to Friday, 8am-4pm",
+      "hours_details": "Picket line on site",
       "is_picket_line": true,
       "location_type": "Service BC"
     },
@@ -2580,7 +2580,7 @@
       "city": "Fort St. John",
       "address": "10600 - 100th St",
       "coordinates": [-120.84822063660079, 56.25250089443577],
-      "hours_details": "picketing redirected to 10215 100th Street",
+      "hours_details": "Picketing at 10003 110th Ave, Fort St. John",
       "is_picket_line": false,
       "location_type": "Service BC"
     },
@@ -2594,10 +2594,10 @@
     },
     {
       "city": "Grand Forks",
-      "address": "7290 2nd St.",
+      "address": "7290 2nd St",
       "coordinates": [-118.4367490015462, 49.03264351676415],
-      "hours_details": "picketing redirected to 451 Central Ave, Grand Forks",
-      "is_picket_line": false,
+      "hours_details": "Picketing on site",
+      "is_picket_line": true,
       "location_type": "Service BC"
     },
     {
@@ -2610,18 +2610,18 @@
     },
     {
       "city": "Hazelton",
-      "address": "2210 Hwy 62",
+      "address": "2210 Hwy 62 W",
       "coordinates": [-127.6593572546335, 55.257392321825485],
-      "hours_details": "",
+      "hours_details": "Picketing at BC Liquor Store (4330 Field St, Hazelton)",
       "is_picket_line": false,
       "location_type": "Service BC"
     },
     {
       "city": "Houston",
-      "address": "3400 - 11th St",
+      "address": "3400 11th St",
       "coordinates": [-126.64685778227854, 54.39868854970311],
-      "hours_details": "",
-      "is_picket_line": false,
+      "hours_details": "Picketing at 3400 11th Street, Houston",
+      "is_picket_line": true,
       "location_type": "Service BC"
     },
     {
@@ -3018,7 +3018,7 @@
     },
     {
       "city": "Clearwater",
-      "address": "687 Yellowhead South Highway",
+      "address": "687 Yellowhead Hwy S",
       "coordinates": [-120.09619233474734, 51.6271305506226],
       "hours_details": "Picketing redirected to BCL 74 Young Rd Clearwater",
       "location_type": "Front Desk BC",
@@ -3026,9 +3026,9 @@
     },
     {
       "city": "Powell River",
-      "address": "7077 Duncan Street",
+      "address": "7077 Duncan St",
       "coordinates": [-124.51738550790671, 49.83671209435782],
-      "hours_details": "Picketing redirected to 91 7100 Alberni Street, Powell River",
+      "hours_details": "Picketing at BC Liquor Store (7100 Alberni St)",
       "location_type": "Front Desk BC",
       "is_picket_line": false
     },
@@ -3146,25 +3146,25 @@
     },
     {
       "city": "Revelstoke",
-      "address": "1761 Big Eddy Road",
+      "address": "1761 Big Eddy Rd",
       "coordinates": [-118.22200987354842, 50.99755438383889],
-      "hours_details": "Picketing redirected to 111 Campbell Ave",
+      "hours_details": "Picketing at 111 Campbell Ave",
       "location_type": "Front Desk BC",
       "is_picket_line": false
     },
     {
       "city": "Port Alberni",
-      "address": "4885 Cherry Creek Road",
+      "address": "4885 Cherry Creek Rd",
       "coordinates": [-124.78779005055573, 49.263288148965],
-      "hours_details": "Picketing at either 3764 10th Ave, Port Alberni OR 3555 Johnston Rd, Port Alberni",
+      "hours_details": "Picketing redirected to 3764 10th Ave OR 3555 Johnston Rd",
       "location_type": "Front Desk BC",
       "is_picket_line": false
     },
     {
       "city": "Daajing Giids",
-      "address": "1229 Oceanview Drive",
+      "address": "1229 Oceanview Dr",
       "coordinates": [-132.11525977270134, 53.25277171280832],
-      "hours_details": "Picketing redirected to 115 Oceanview Drive, Daajing Giids",
+      "hours_details": "Picketing at BC Liquor Store (161 Stuart Dr W, Fort St James)",
       "location_type": "Front Desk BC",
       "is_picket_line": false
     },
@@ -3330,7 +3330,7 @@
     },
     {
       "city": "Surrey",
-      "address": "10428 153rd Street",
+      "address": "10428 153 Street",
       "coordinates": [-122.79791033651082, 49.19182027128942],
       "hours_details": "Picketing redirected to 10470 152 Street",
       "location_type": "Front Desk BC",
@@ -3370,7 +3370,7 @@
     },
     {
       "city": "Castlegar",
-      "address": "845 Columbia Avenue",
+      "address": "845 Columbia Ave",
       "coordinates": [-117.66443621759123, 49.31780318976541],
       "hours_details": "Picket line on site",
       "location_type": "Front Desk BC",
@@ -3404,7 +3404,7 @@
       "city": "Merritt",
       "address": "3840 Airport Rd",
       "coordinates": [-120.74816086484279, 50.12555814125625],
-      "hours_details": "Monday to Friday, 8am-4pm",
+      "hours_details": "Picketing on site",
       "location_type": "Front Desk BC",
       "is_picket_line": true
     },
@@ -3426,7 +3426,7 @@
     },
     {
       "city": "Burns Lake",
-      "address": "183 W Highway 16",
+      "address": "183 Highway 16 W",
       "coordinates": [-125.7555822372244, 54.22502840009982],
       "hours_details": "Picketing redirected to BCL 117 BC-35 Unit 8,",
       "location_type": "Front Desk BC",
@@ -3458,9 +3458,9 @@
     },
     {
       "city": "Fort St. James",
-      "address": "2537 Stones Bay Road",
+      "address": "2537 Stones Bay Rd",
       "coordinates": [-124.28625265760125, 54.45749533878695],
-      "hours_details": "Picketing redirected to 161 Stuart Dr W",
+      "hours_details": "Picketing at BC Liquor Store (161 Stuart Dr W, Fort St James)",
       "location_type": "Front Desk BC",
       "is_picket_line": false
     },
@@ -3652,7 +3652,7 @@
       "city": "Salmon Arm",
       "address": "1810 40 St SE",
       "coordinates": [-119.23698684458503, 50.687625724135565],
-      "hours_details": "picketing redirected to 360 Trans-Canada Hwy",
+      "hours_details": "Picketing at 360 Trans - Canada Hwy #500",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3660,7 +3660,7 @@
       "city": "Atlin",
       "address": "PO Box 180",
       "coordinates": [-133.70510005341418, 59.57314932408724],
-      "hours_details": "Virtual picketing",
+      "hours_details": "Join virtual picket line (alternate duties) until further notice",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3668,7 +3668,7 @@
       "city": "Black Creek",
       "address": "1812 Miracle Beach Dr",
       "coordinates": [-125.10162330402589, 49.85062501123655],
-      "hours_details": "Picketing at either 1095 Cliffe, Courtenay or 2116 South island Hwy, Campbell River",
+      "hours_details": "Picketing redirected to 1095 Cliffe, Courtenay or 2116 South Island Hwy, Campbell River",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3676,7 +3676,7 @@
       "city": "Brackendale",
       "address": "2426 Alice Lake Park",
       "coordinates": [-123.11894853492936, 49.7875083020758],
-      "hours_details": "Picketing at nearest picket line",
+      "hours_details": "Picketing redirected to closest line",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3684,7 +3684,7 @@
       "city": "Clearwater",
       "address": "6740 Boundary Rd",
       "coordinates": [-120.05444077778354, 51.94297787774032],
-      "hours_details": "Picketing at BC Liquor Store #7 (74 Young Rd, Chilliwack)",
+      "hours_details": "Picketing redirected to 74 Young Rd",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3692,7 +3692,7 @@
       "city": "Cultus Lake",
       "address": "2950 Columbia Valley Hwy",
       "coordinates": [-121.96660866789415, 49.056735977803925],
-      "hours_details": "Picketing at nearest picket line",
+      "hours_details": "Picketing redirected to closest line",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3700,7 +3700,7 @@
       "city": "Dease Lake",
       "address": "PO Box 70",
       "coordinates": [-129.98599895603942, 58.43469397040605],
-      "hours_details": "Virtual picketing",
+      "hours_details": "Join virtual picket line (alternate duties) until further notice",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3708,7 +3708,7 @@
       "city": "Fernie",
       "address": "1621A 10th Ave",
       "coordinates": [-115.06162830925484, 49.51642002791734],
-      "hours_details": "Picketing at nearest picket line or virtual picket",
+      "hours_details": "Picketing redirected to closest line or virtual picketing",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3716,7 +3716,7 @@
       "city": "Fort Nelson",
       "address": "PO Box 247",
       "coordinates": [-122.68972993116974, 58.80997631788836],
-      "hours_details": "Picketing at BC Liquor Store #222 (5107 Airport Drive, Fort Nelson)",
+      "hours_details": "Picketing redirected to 5107 Airport Dr",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3724,7 +3724,7 @@
       "city": "Golden",
       "address": "504 9 Ave N",
       "coordinates": [-116.96663113124323, 51.300330704384386],
-      "hours_details": "Picketing at 906 10th Ave S, Golden",
+      "hours_details": "Picketing redirected to 906 10th Ave S",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3732,7 +3732,7 @@
       "city": "Hagensborg",
       "address": "1650 Airport Rd",
       "coordinates": [-126.58675266291802, 52.38573474467477],
-      "hours_details": "Virtual picketing",
+      "hours_details": "Join virtual picket line (alternate duties) until further notice",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3740,7 +3740,7 @@
       "city": "Kamloops",
       "address": "1255 Dalhousie Dr",
       "coordinates": [-120.36352719859619, 50.666677717463],
-      "hours_details": "Picketing at 441 Columbia St, Kamloops",
+      "hours_details": "Picketing redirected to 441 Columbia st",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3748,7 +3748,7 @@
       "city": "Manning Park",
       "address": "7500 BC-3",
       "coordinates": [-120.81955782799022, 49.06378358564996],
-      "hours_details": "Picketing at nearest picket line or virtual picket",
+      "hours_details": "Picketing redirected to closest line or virtual picketing",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3756,7 +3756,7 @@
       "city": "Merritt",
       "address": "Hwy 5A Airport Rd",
       "coordinates": [-120.748152501412, 50.12552399935974],
-      "hours_details": "Picketing at 3840 Airport Rd, Merritt",
+      "hours_details": "Picketing redirected to 3840 Airport rd (8 - 4 pm)",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3764,15 +3764,15 @@
       "city": "Mission",
       "address": "7266 River Pl",
       "coordinates": [-122.35014321579284, 49.13366009571453],
-      "hours_details": "Picketing at nearest picket line",
+      "hours_details": "Picketing redirected to closest line",
       "is_picket_line": false,
       "location_type": "Office"
     },
     {
       "city": "North Vancouver",
-      "address": "1610 Mount Seymour Rd",
+      "address": "1610 Mount Seymour Pky",
       "coordinates": [-122.97098267933951, 49.32312640996264],
-      "hours_details": "Picketing at nearest picket line",
+      "hours_details": "Picketing redirected to closest line",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3780,7 +3780,7 @@
       "city": "Parksville",
       "address": "1240 Rath Rd",
       "coordinates": [-124.26957225677141, 49.31893628209106],
-      "hours_details": "Picketing at 810 Island Hwy W, Parksville",
+      "hours_details": "Picketing redirected to 810 Island Hwy W, Parksville",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3788,7 +3788,7 @@
       "city": "Powell River",
       "address": "6953 Alberni St",
       "coordinates": [-124.52303441458724, 49.8456904409043],
-      "hours_details": "Picketing at BC Liquor Store #41 (7100 Alberni St, Powell River)",
+      "hours_details": "Picketing redirected to BCL - 7100 Alberni St",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3796,7 +3796,7 @@
       "city": "Prince George",
       "address": "4051 18th Ave",
       "coordinates": [-122.79619793261364, 53.907176201928465],
-      "hours_details": "Picketing at BC Liquor Store #174 (Prince George Pine Centre)",
+      "hours_details": "Picketing redirected to 2000 Ospika Blvd S",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3804,7 +3804,7 @@
       "city": "Prince Rupert",
       "address": "2351 Seal Cove Rd",
       "coordinates": [-130.28405167505156, 54.332943210385686],
-      "hours_details": "Picketing at BC Liquor Store #35 (100 2nd Ave W, Prince Rupert)",
+      "hours_details": "Picketing redirected to 100 2nd Ave W",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3812,7 +3812,7 @@
       "city": "Salmon Arm",
       "address": "1751 10th Ave SW",
       "coordinates": [-119.30520944988395, 50.69345360291499],
-      "hours_details": "Picketing at BC Liquor Store #48, 500-360 Trans Canada Hwy, Salmon Arm",
+      "hours_details": "Picketing redirected to 360 Trans - Canada Hwy #500 (BCL)",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3820,7 +3820,7 @@
       "city": "Sechelt",
       "address": "6451 Sechelt Inlet Rd",
       "coordinates": [-123.747441543928, 49.507395150734816],
-      "hours_details": "Picketing at nearest picket line or virtual picket",
+      "hours_details": "Picketing redirected to closest line or virtual picketing",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3828,7 +3828,7 @@
       "city": "Tlell",
       "address": "General Delivery",
       "coordinates": [-131.92989714160194, 53.561803756574726],
-      "hours_details": "picketing redirected to the LDB",
+      "hours_details": "Picketing redirected to Daajing Giids BC Liquor Store",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3836,7 +3836,7 @@
       "city": "Tofino",
       "address": "175 Airport Rd",
       "coordinates": [-125.76646131235117, 49.080227813473],
-      "hours_details": "Picketing at 328 Neill Street, Tofino",
+      "hours_details": "Picketing redirected to 328 Neill Street, Tofino",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3844,7 +3844,7 @@
       "city": "Vancouver",
       "address": "3070 Kingsway Ave",
       "coordinates": [-123.04089065874078, 49.23544108186876],
-      "hours_details": "Picketing at nearest picket line",
+      "hours_details": "Picketing redirected to closest line",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3852,7 +3852,7 @@
       "city": "Vancouver",
       "address": "2202 Main Mall",
       "coordinates": [-123.25125627116273, 49.26354042574589],
-      "hours_details": "Picketing at nearest picket line",
+      "hours_details": "Picketing redirected to closest line",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -3860,7 +3860,423 @@
       "city": "Vernon",
       "address": "4607 23rd St",
       "coordinates": [-119.26195217963506, 50.279537785876364],
+      "hours_details": "Picketing redirected to closest line",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Cobble Hill",
+      "address": "3815 Trans Canada Hwy RR 1",
+      "coordinates": [-123.59418668188896, 48.69980235622508],
+      "hours_details": "Picketing at BC Liquor Store (180 Central Road, Duncan)",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Chilliwack",
+      "address": "6333 Unsworth Rd",
+      "coordinates": [-121.99434699798644, 49.11719500761046],
+      "hours_details": "Picketing at 45460 Luckakuck Way Unit B, Chilliwack",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Cultus Lake",
+      "address": "4225 Columbia Valley Hwy",
+      "coordinates": [-121.97999680000943, 49.081141168552136],
       "hours_details": "Picketing at nearest picket line",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Hope",
+      "address": "63900 Lougheed Hwy",
+      "coordinates": [-121.46642121219274, 49.38913225126485],
+      "hours_details": "Picketing at nearest picket line",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Sechelt",
+      "address": "4448 Hilltop Rd",
+      "coordinates": [-123.71341374580977, 49.45652148951157],
+      "hours_details": "Picketing at nearest picket line",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Alexis Creek",
+      "address": "2582 Stum Lake Rd",
+      "coordinates": [-123.27395052616755, 52.083266335161255],
+      "hours_details": "Virtual picketing",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Baldonnel",
+      "address": "6171 242 Rd",
+      "coordinates": [-120.73835549259424, 56.24617287580257],
+      "hours_details": "Picketing at 10003 110th Ave, Fort St. John",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Burns Lake",
+      "address": "8 4th Ave",
+      "coordinates": [-125.76388874395339, 54.230723805828376],
+      "hours_details": "Picketing at 183 Hwy 16 W, Burns Lake",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Burns Lake",
+      "address": "185 Yellowhead Hwy 16",
+      "coordinates": [-125.75664394221634, 54.225234563766826],
+      "hours_details": "Picketing at 183 Hwy 16 W, Burns Lake",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Campbell River",
+      "address": "905 Nursery Rd",
+      "coordinates": [-125.29328331489741, 50.025906817300154],
+      "hours_details": "Picketing at BC Liquor Store #5 (270-1400 Dogwood St, Campbell River)",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Castlegar",
+      "address": "2501 Udell Rd",
+      "coordinates": [-117.53263337133654, 49.42209609029872],
+      "hours_details": "Picketing at 635 Columbia Ave, Castlegar",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Castlegar",
+      "address": "208 Hughes Rd",
+      "coordinates": [-117.63508801636367, 49.295738377688785],
+      "hours_details": "Picketing at 635 Columbia Ave, Castlegar",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Charlie Lake",
+      "address": "Mile 52 Alaska Hwy",
+      "coordinates": [-121.00219059927579, 56.30395107759289],
+      "hours_details": "Picketing at 10003 110th Ave, Fort St. John",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Chetwynd",
+      "address": "4701 Airport Rd",
+      "coordinates": [-121.61429812180222, 55.69105161630199],
+      "hours_details": "Picketing at BC Liquor Store #238 (5033 49th Ave, Chetwynd)",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Cranbrook",
+      "address": "2550 Stahl Rd",
+      "coordinates": [-115.73641106791581, 49.53806996138081],
+      "hours_details": "Picketing at either 425 Victoria Ave N, Cranbrook (BC Liquor Store #9) or 117 10th Ave S, Cranbrook",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Dawson Creek",
+      "address": "908 100 Ave",
+      "coordinates": [-120.22588196092208, 55.76167330803695],
+      "hours_details": "Picketing at BC Liquor Store #212 (1020 Alaska Ave, Dawson Creek)",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Fort Nelson",
+      "address": "Mile 301 RR 1",
+      "coordinates": [-122.70938654549896, 58.8026132801314],
+      "hours_details": "Picketing at BC Liquor Store #222 (5107 Airport Drive, Fort Nelson)",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Golden",
+      "address": "600 9th St N",
+      "coordinates": [-116.97634019305696, 51.30479948729425],
+      "hours_details": "Picketing at BC Liqour Store (906 10th Ave S, Golden)",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Grand Forks",
+      "address": "7275 Riverside Dr",
+      "coordinates": [-118.43609043779217, 49.03263545320211],
+      "hours_details": "Picketing at 7290 2nd St, Grand Forks",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Grand Forks",
+      "address": "120 60 Ave",
+      "coordinates": [-118.4254745055367, 49.01769615393007],
+      "hours_details": "Picketing at 7290 2nd St, Grand Forks",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Grand Forks",
+      "address": "5980 2nd St",
+      "coordinates": [-118.42876972658527, 49.017052207212934],
+      "hours_details": "Picketing at 7290 2nd St, Grand Forks",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Hagensborg",
+      "address": "1681 Airport Rd",
+      "coordinates": [-126.58685017709642, 52.38768260742793],
+      "hours_details": "Virtual picketing",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Kamloops",
+      "address": "3080 Airport Rd",
+      "coordinates": [-120.4498711963107, 50.70670825489103],
+      "hours_details": "Picketing at 700 Tranquille Rd OR 1200 Summit Dr",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Kamloops",
+      "address": "175 2nd Ave",
+      "coordinates": [-120.336166176598, 50.676091290239725],
+      "hours_details": "Picketing at 441 Columbia St",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Kamloops",
+      "address": "4000 Airport Rd",
+      "coordinates": [-120.45146817823031, 50.70706406360641],
+      "hours_details": "Picketing at 700 Tranquille Rd OR 1200 Summit Dr",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Lillooet",
+      "address": "658 Industrial Pl",
+      "coordinates": [-121.92376367584929, 50.68391014031782],
+      "hours_details": "Picketing at 155 Main St",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Lytton",
+      "address": "176 Trans Canada Hwy",
+      "coordinates": [-121.57758969732163, 50.224706050701464],
+      "hours_details": "Virtual picketing",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Mackenzie",
+      "address": "800 Airport Rd",
+      "coordinates": [-123.13680243489567, 55.301619423260114],
+      "hours_details": "Picketing at 1 Sicada Road",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Merritt",
+      "address": "4476 Airport Rd",
+      "coordinates": [-120.74445060565897, 50.121876439298816],
+      "hours_details": "Picketing at 3840 Airport Rd",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Mesachie Lake",
+      "address": "7060 Forestry Rd",
+      "coordinates": [-124.12624752128148, 48.81777599265717],
+      "hours_details": "Picketing at 93 Darnell Rd, Lake Cowichan",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Parksville",
+      "address": "665 Allsbrook Rd",
+      "coordinates": [-124.31164025210104, 49.30230387188239],
+      "hours_details": "Picketing at BC Liquor Store (810 Hwy W)",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Pemberton",
+      "address": "2000 Airport Rd",
+      "coordinates": [-122.72929394583157, 50.30519757399276],
+      "hours_details": "Picketing at nearest picket line",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Penticton",
+      "address": "3547 Airport Rd",
+      "coordinates": [-119.60723718121096, 49.45547990089011],
+      "hours_details": "Picketing at nearest picket line",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Port Alberni",
+      "address": "7480 Airport Rd",
+      "coordinates": [-124.93147246575501, 49.319524216035425],
+      "hours_details": "Picketing at 3764 10th Ave OR 3555 Johnston Rd",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Powell River",
+      "address": "7400 Empress Way",
+      "coordinates": [-124.5041726932237, 49.83659685778822],
+      "hours_details": "Picketing at BC Liquor Store (7100 Alberni St)",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Prince George",
+      "address": "3740 Opie Cres",
+      "coordinates": [-122.79320558781149, 53.901370595054026],
+      "hours_details": "Picketing at 2000 Ospika Blvd., S",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Prince George",
+      "address": "1434 Old Cariboo Hwy",
+      "coordinates": [-122.66117197428008, 53.90742998112763],
+      "hours_details": "Picketing at 3173 Massey St",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Prince George",
+      "address": "3980 22nd Ave",
+      "coordinates": [-122.79637860399289, 53.903177801218774],
+      "hours_details": "Picketing at 2000 Ospika Blvd., S",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Prince George",
+      "address": "17000 Domano Blvd",
+      "coordinates": [-122.7183063591909, 53.7714443074283],
+      "hours_details": "Picketing at 3173 Massey St",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Quesnel",
+      "address": "601 Airport Rd",
+      "coordinates": [-122.50402260691969, 53.02499167590143],
+      "hours_details": "picketing at 322 Johnston ave",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Revelstoke",
+      "address": "2783 Airport Way",
+      "coordinates": [-118.17606731373687, 50.96202309504294],
+      "hours_details": "Picketing at 111 Campbell Ave",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Smithers",
+      "address": "3359 Victoria Dr",
+      "coordinates": [-127.14376829259568, 54.77423773933898],
+      "hours_details": "Picketing on site",
+      "is_picket_line": true,
+      "location_type": "Office"
+    },
+    {
+      "city": "Tappen",
+      "address": "800 Platt Rd RR1 S13 C5",
+      "coordinates": [-119.4040692807182, 50.79051475348783],
+      "hours_details": "Virtual picketing",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Telkwa",
+      "address": "11530 Skillhorn Rd",
+      "coordinates": [-127.06907234797816, 54.66689727782408],
+      "hours_details": "Picketing at 3353 Victoria Dr, Smithers",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Telkwa",
+      "address": "General Delivery Telkwa",
+      "coordinates": [-127.05092611144264, 54.699729867762215],
+      "hours_details": "Picketing at 3353 Victoria Dr, Smithers",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Terrace",
+      "address": "4435 Bristol Rd",
+      "coordinates": [-128.58153314704956, 54.474166884859734],
+      "hours_details": "Picketing at BC Liquor Store (3240 Eby St)",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Valemount",
+      "address": "3390 Selwyn Rd",
+      "coordinates": [-119.29855223716385, 52.86951893140608],
+      "hours_details": "Picketing at BC Liquor Store (1175 5th Ave)",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Valemount",
+      "address": "3010 Selwyn Rd",
+      "coordinates": [-119.2979104770652, 52.86670081713472],
+      "hours_details": "Picketing at BC Liquor Store (1175 5th Ave)",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Vanderhoof",
+      "address": "5152 Airport Rd",
+      "coordinates": [-124.01133888616059, 54.054027932055945],
+      "hours_details": "Picketing at 1560 Hwy 16 E",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Vernon",
+      "address": "3401 Reservoir Rd",
+      "coordinates": [-119.27651699810744, 50.238569096757864],
+      "hours_details": "Picketing at nearest picket line",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Vernon",
+      "address": "235 Bailey Rd",
+      "coordinates": [-119.34830806793595, 50.18629037180277],
+      "hours_details": "Picketing at nearest picket line",
+      "is_picket_line": false,
+      "location_type": "Office"
+    },
+    {
+      "city": "Williams Lake",
+      "address": "3020 Airport Rd",
+      "coordinates": [-122.06920861120403, 52.18816711095089],
+      "hours_details": "Picketing at 280 3rd ave",
       "is_picket_line": false,
       "location_type": "Office"
     }
