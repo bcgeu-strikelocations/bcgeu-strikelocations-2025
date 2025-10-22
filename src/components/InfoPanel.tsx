@@ -142,7 +142,7 @@ export default function InfoPanel({
       {/* Date Footer */}
       <div className="text-center mt-2">
         <small className="text-xs text-gray-500">
-          Last Updated: October 22nd, 2025
+          Last Updated: October 23rd, 2025
         </small>
       </div>
     </>
