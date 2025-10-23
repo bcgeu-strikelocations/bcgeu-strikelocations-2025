@@ -4292,7 +4292,7 @@
       "city": "Parksville",
       "address": "1176 Franklin's Gull",
       "coordinates": [-124.26416957057141, 49.30408207414134],
-      "hours_details": "Picketing at BC Liquor Store (810 Hwy W, Parksville)",
+      "hours_details": "Picketing redirected to 810 Hwy W",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4300,7 +4300,7 @@
       "city": "Pouce Coupe",
       "address": "13350 Hwy 2",
       "coordinates": [-120.12495759259123, 55.704752163686614],
-      "hours_details": "Picketing at 1020 Alaska Ave, Dawson Creek",
+      "hours_details": "Picketing redirected to 1020 Alaska Ave, Dawson Creek",
       "is_picket_line": false,
       "location_type": "CVSE"
     },
@@ -4308,7 +4308,7 @@
       "city": "Kelowna",
       "address": "1358 St Paul St",
       "coordinates": [-119.49207217386328, 49.89011749327755],
-      "hours_details": "Picketing at nearest line",
+      "hours_details": "Picketing redirected to nearest Picket line",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4316,7 +4316,7 @@
       "city": "Pemberton",
       "address": "1360 Aster St",
       "coordinates": [-122.80863817587101, 50.3211434155989],
-      "hours_details": "Picketing at nearest line",
+      "hours_details": "Picketing redirected to nearest Picket line",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4324,7 +4324,7 @@
       "city": "Surrey",
       "address": "1420 172 St",
       "coordinates": [-122.74544495032549, 49.027357493527184],
-      "hours_details": "Picketing at nearest line",
+      "hours_details": "Picketing redirected to nearest Picket line",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4332,7 +4332,7 @@
       "city": "Kelowna",
       "address": "1580 Findlay Rd",
       "coordinates": [-119.39858247011826, 49.90924799828762],
-      "hours_details": "Picketing at nearest line",
+      "hours_details": "Picketing redirected to nearest Picket line",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4340,7 +4340,7 @@
       "city": "Prince George",
       "address": "1581 Hart Hwy",
       "coordinates": [-122.76104363407028, 53.93909572354293],
-      "hours_details": "Picketing at 1011 4th Ave",
+      "hours_details": "Picketing redirected to 1011 4th Ave",
       "is_picket_line": false,
       "location_type": "CVSE"
     },
@@ -4348,7 +4348,7 @@
       "city": "Prince George",
       "address": "1750 Quinn St",
       "coordinates": [-122.7911357951274, 53.9081343707134],
-      "hours_details": "Picketing at 3173 Massey Dr",
+      "hours_details": "Picketing redirected to 3173 Massey Dr",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4356,7 +4356,7 @@
       "city": "Surrey",
       "address": "17969 Roan Pl, PO Box 1213 Stn A",
       "coordinates": [-122.72469368369936, 49.101544359555035],
-      "hours_details": "Picketing at nearest line",
+      "hours_details": "Picketing redirected to nearest Picket line",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4364,7 +4364,7 @@
       "city": "Salmon Arm",
       "address": "1850 10 Ave SW",
       "coordinates": [-119.30638128510029, 50.6920149919429],
-      "hours_details": "Picketing at BC Liquor Store (500 - 360 Trans Canada Hwy, Salmon Arm)",
+      "hours_details": "Picketing redirected to 360 Trans Canada Hwy",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4372,7 +4372,7 @@
       "city": "Merritt",
       "address": "2196 Quilchena Ave",
       "coordinates": [-120.78544690598734, 50.10905441656197],
-      "hours_details": "Picketing at 3840 Airport Rd",
+      "hours_details": "Picketing redirected to 3840 Airport rd",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4388,7 +4388,7 @@
       "city": "Prince George",
       "address": "27110 Cariboo Hwy",
       "coordinates": [-122.67562598595099, 53.676554389659074],
-      "hours_details": "Picketing at 1011 4th Ave",
+      "hours_details": "Picketing redirected to 1011 4th Ave",
       "is_picket_line": false,
       "location_type": "CVSE"
     },
@@ -4396,7 +4396,7 @@
       "city": "Coquitlam",
       "address": "2900 Barnet Hwy",
       "coordinates": [-122.80037852239457, 49.276648367300034],
-      "hours_details": "Picketing at nearest line",
+      "hours_details": "Picketing redirected to nearest Picket line",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4404,7 +4404,7 @@
       "city": "McBride",
       "address": "300 Robson Centre",
       "coordinates": [-120.16389056073236, 53.30417139573074],
-      "hours_details": "Virtual picketing until further notice",
+      "hours_details": "Join virtual picket line (alternate duties) until further notice",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4412,7 +4412,7 @@
       "city": "Quesnel",
       "address": "395 Johnston",
       "coordinates": [-122.49305800945845, 52.970346884782735],
-      "hours_details": "Picketing on site",
+      "hours_details": "Picket line on site",
       "is_picket_line": true,
       "location_type": "Office"
     },
@@ -4420,7 +4420,7 @@
       "city": "Quesnel",
       "address": "410 Kinchant St",
       "coordinates": [-122.49365609429924, 52.979481444271904],
-      "hours_details": "Picketing at 488 Reid St",
+      "hours_details": "Picketing redirected to 488 Reid St",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4428,7 +4428,7 @@
       "city": "Courtenay",
       "address": "420 Cumberland Rd",
       "coordinates": [-124.99924228724292, 49.68887625782362],
-      "hours_details": "Picketing at either 1095 Cliffe, Courtenay OR  2116 South island Hwy, Campbell River",
+      "hours_details": "Picketing redirected to either 1095 Cliffe - Courtenay OR 2116 South island Hwy, Campbell River",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4436,7 +4436,7 @@
       "city": "Golden",
       "address": "421 9th Ave N",
       "coordinates": [-116.96576491143142, 51.29957123423839],
-      "hours_details": "Picketing at BC Liquor Store (906 10th Ave S, Golden)",
+      "hours_details": "Picketing redirected to 906 10th Ave S.",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4444,7 +4444,7 @@
       "city": "Chilliwack",
       "address": "45890 Victoria Ave",
       "coordinates": [-121.9543476800131, 49.17260266934657],
-      "hours_details": "Picketing at nearest line",
+      "hours_details": "Picketing redirected to nearest Picket line",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4452,7 +4452,7 @@
       "city": "Terrace",
       "address": "4741 Park Ave",
       "coordinates": [-128.59751770566288, 54.51851814021357],
-      "hours_details": "Picketing at BC Liquor Street (3240 Eby St)",
+      "hours_details": "Picketing redirected to 3240 Eby St",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4460,7 +4460,7 @@
       "city": "Vernon",
       "address": "4791 23rd St",
       "coordinates": [-119.26178909050098, 50.28184769422677],
-      "hours_details": "Picketing at nearest line",
+      "hours_details": "Picketing redirected to nearest Picket line",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4468,7 +4468,7 @@
       "city": "Terrace",
       "address": "4825 Keith Ave",
       "coordinates": [-128.60413598545804, 54.513114722135235],
-      "hours_details": "Picketing at BC Liquor Street (3240 Eby St)",
+      "hours_details": "Picketing redirected to 3240 Eby St",
       "is_picket_line": false,
       "location_type": "CVSE"
     },
@@ -4476,7 +4476,7 @@
       "city": "Kamloops",
       "address": "523 Columbia St",
       "coordinates": [-120.32936745652802, 50.67045359184305],
-      "hours_details": "Picketing at 447 Columbia",
+      "hours_details": "Picketing redirected to 447 Columbia",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4484,7 +4484,7 @@
       "city": "Courtenay",
       "address": "550 Comox Rd",
       "coordinates": [-124.99156646590717, 49.69320672189405],
-      "hours_details": "Picketing at either 1095 Cliffe, Courtenay OR  2116 South island Hwy, Campbell River",
+      "hours_details": "Picketing redirected to either 1095 Cliffe - Courtenay OR 2116 South island Hwy, Campbell River",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4492,7 +4492,7 @@
       "city": "Terrace",
       "address": "5504 Lloyde Ave",
       "coordinates": [-128.64432264778034, 54.51993652512074],
-      "hours_details": "Picketing at BC Liquor Street (3240 Eby St)",
+      "hours_details": "Picketing redirected to 3240 Eby St",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4500,7 +4500,7 @@
       "city": "New Westminster",
       "address": "625 Agnes St",
       "coordinates": [-122.91120628071613, 49.20426899497564],
-      "hours_details": "Picketing at nearest line",
+      "hours_details": "Picketing redirected to nearest Picket line",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4508,7 +4508,7 @@
       "city": "Kelowna",
       "address": "670 Evans Crt",
       "coordinates": [-119.39881646252942, 49.90925756820692],
-      "hours_details": "Picketing at nearest line",
+      "hours_details": "Picketing redirected to nearest Picket line",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4516,7 +4516,7 @@
       "city": "Vernon",
       "address": "6775 Hwy 97",
       "coordinates": [-119.2496120425544, 50.307652475978514],
-      "hours_details": "Picketing at nearest line",
+      "hours_details": "Picketing redirected to nearest Picket line",
       "is_picket_line": false,
       "location_type": "CVSE"
     },
@@ -4532,7 +4532,7 @@
       "city": "Kamloops",
       "address": "782 A Tagish St",
       "coordinates": [-120.32436510639826, 50.69410249315934],
-      "hours_details": "Picketing at nearest line",
+      "hours_details": "Picketing redirected to nearest Picket line",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4540,7 +4540,7 @@
       "city": "Langley",
       "address": "8298 216 St",
       "coordinates": [-122.62299841120718, 49.153672052934155],
-      "hours_details": "Picketing at nearest line",
+      "hours_details": "Picketing redirected to nearest Picket line",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4548,7 +4548,7 @@
       "city": "Salmon Arm",
       "address": "850 16 St NE",
       "coordinates": [-119.26788074141575, 50.70561011550337],
-      "hours_details": "Picketing at BC Liquor Store (500 - 360 Trans Canada Hwy, Salmon Arm)",
+      "hours_details": "Picketing redirected to 360 Trans Canada Hwy",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4556,7 +4556,7 @@
       "city": "Sparwood",
       "address": "8879 Crowsnest Hwy, PO Box 1827",
       "coordinates": [-114.71236357474483, 49.651358900287136],
-      "hours_details": "Picketing at BC Liqour Store (792 2nd Ave, Fernie)",
+      "hours_details": "Picketing redirected to 792 2nd Ave. Fernie",
       "is_picket_line": false,
       "location_type": "CVSE"
     },
@@ -4564,7 +4564,7 @@
       "city": "Hope",
       "address": "Hwy 1 E",
       "coordinates": [-121.59707707284802, 49.34115210856344],
-      "hours_details": "Picketing at nearest line",
+      "hours_details": "Picketing redirected to nearest Picket line",
       "is_picket_line": false,
       "location_type": "CVSE"
     },
@@ -4572,7 +4572,7 @@
       "city": "Hope",
       "address": "Hwy 1 W",
       "coordinates": [-121.59069344165376, 49.34726785355955],
-      "hours_details": "Picketing at nearest line",
+      "hours_details": "Picketing redirected to nearest Picket line",
       "is_picket_line": false,
       "location_type": "CVSE"
     },
@@ -4580,7 +4580,7 @@
       "city": "Vanderhoof",
       "address": "Hwy 16 W, PO Box 399",
       "coordinates": [-124.12202294569092, 54.012974758396545],
-      "hours_details": "Picketing at BC Liquor Store (2557 Burrard St)",
+      "hours_details": "Picketing redirected to 2557 Burrard St",
       "is_picket_line": false,
       "location_type": "CVSE"
     },
@@ -4588,7 +4588,7 @@
       "city": "Yahk",
       "address": "Hwy 3 & Hwy 97",
       "coordinates": [-116.13918105301191, 49.07536054889547],
-      "hours_details": "Virtual picketing",
+      "hours_details": "Join virtual picket line (alternate duties) until further notice",
       "is_picket_line": false,
       "location_type": "CVSE"
     },
@@ -4596,7 +4596,7 @@
       "city": "Prince George",
       "address": "Hwy 97 S",
       "coordinates": [-122.71299449210628, 53.85265081331434],
-      "hours_details": "Picketing at 3173 Massey",
+      "hours_details": "Picketing redirected to 3173 Massey",
       "is_picket_line": false,
       "location_type": "Office"
     },
@@ -4612,7 +4612,7 @@
       "city": "Valemount",
       "address": "PO Box 490",
       "coordinates": [-119.4072619880579, 52.97804075338646],
-      "hours_details": "Picketing at BC Liquor Store (1175 5th Ave)",
+      "hours_details": "Picketing redirected to 1175 5th ave",
       "is_picket_line": false,
       "location_type": "CVSE"
     }
